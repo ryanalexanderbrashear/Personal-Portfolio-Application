@@ -6,5 +6,5 @@ target 'PersonalPortfolio' do
   use_frameworks!
 
   # Pods for PersonalPortfolio
-
+	pod 'FoldingCell', '~> 2.0.3'
 end
