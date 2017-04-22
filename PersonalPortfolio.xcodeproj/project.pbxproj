@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		396543771EAB949100228CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396543761EAB949100228CBB /* AppDelegate.swift */; };
-		396543791EAB949100228CBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396543781EAB949100228CBB /* ViewController.swift */; };
 		3965437C1EAB949100228CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965437A1EAB949100228CBB /* Main.storyboard */; };
 		3965437E1EAB949100228CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3965437D1EAB949100228CBB /* Assets.xcassets */; };
 		396543811EAB949100228CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965437F1EAB949100228CBB /* LaunchScreen.storyboard */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		396543731EAB949100228CBB /* PersonalPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396543761EAB949100228CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		396543781EAB949100228CBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3965437B1EAB949100228CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3965437D1EAB949100228CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		396543801EAB949100228CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,14 +68,29 @@
 		396543751EAB949100228CBB /* PersonalPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				396543891EAB96D500228CBB /* Storyboards */,
+				396543881EAB96CB00228CBB /* ViewControllers */,
 				396543761EAB949100228CBB /* AppDelegate.swift */,
-				396543781EAB949100228CBB /* ViewController.swift */,
-				3965437A1EAB949100228CBB /* Main.storyboard */,
 				3965437D1EAB949100228CBB /* Assets.xcassets */,
 				3965437F1EAB949100228CBB /* LaunchScreen.storyboard */,
 				396543821EAB949100228CBB /* Info.plist */,
 			);
 			path = PersonalPortfolio;
+			sourceTree = "<group>";
+		};
+		396543881EAB96CB00228CBB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		396543891EAB96D500228CBB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3965437A1EAB949100228CBB /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 		C1A12E439CB9F4E319E41652 /* Frameworks */ = {
@@ -187,7 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AC4857BD995E72235817F9F6 /* [CP] Copy Pods Resources */ = {
@@ -212,7 +225,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				396543791EAB949100228CBB /* ViewController.swift in Sources */,
 				396543771EAB949100228CBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +389,7 @@
 				396543871EAB949100228CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
