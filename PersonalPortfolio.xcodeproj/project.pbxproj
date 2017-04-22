@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		396543771EAB949100228CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396543761EAB949100228CBB /* AppDelegate.swift */; };
-		3965437C1EAB949100228CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965437A1EAB949100228CBB /* Main.storyboard */; };
-		3965437E1EAB949100228CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3965437D1EAB949100228CBB /* Assets.xcassets */; };
-		396543811EAB949100228CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965437F1EAB949100228CBB /* LaunchScreen.storyboard */; };
+		3965438B1EAB978000228CBB /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3965438A1EAB978000228CBB /* TestTableViewController.swift */; };
+		3965438E1EAB980C00228CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965438D1EAB980C00228CBB /* LaunchScreen.storyboard */; };
+		396543921EAB982100228CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396543911EAB982100228CBB /* AppDelegate.swift */; };
+		396543941EAB982900228CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396543931EAB982900228CBB /* Assets.xcassets */; };
+		396543961EAB984300228CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396543951EAB984300228CBB /* Main.storyboard */; };
 		3C9E6671FF28A98E90686210 /* Pods_PersonalPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAC6AD6951DF88CB076579A /* Pods_PersonalPortfolio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		396543731EAB949100228CBB /* PersonalPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		396543761EAB949100228CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3965437B1EAB949100228CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3965437D1EAB949100228CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		396543801EAB949100228CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		396543821EAB949100228CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3965438A1EAB978000228CBB /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestTableViewController.swift; path = ViewControllers/TestTableViewController.swift; sourceTree = "<group>"; };
+		3965438D1EAB980C00228CBB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3965438F1EAB981900228CBB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Utilities/Info.plist; sourceTree = "<group>"; };
+		396543911EAB982100228CBB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Utilities/AppDelegate.swift; sourceTree = "<group>"; };
+		396543931EAB982900228CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Utilities/Assets.xcassets; sourceTree = "<group>"; };
+		396543951EAB984300228CBB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		4B426CADC4EE6A06F1D2B993 /* Pods-PersonalPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalPortfolio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		7CAC6AD6951DF88CB076579A /* Pods_PersonalPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3F8D2066B7575D206F5616 /* Pods-PersonalPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalPortfolio.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,12 +70,9 @@
 		396543751EAB949100228CBB /* PersonalPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				3965438C1EAB979000228CBB /* Utilities */,
 				396543891EAB96D500228CBB /* Storyboards */,
 				396543881EAB96CB00228CBB /* ViewControllers */,
-				396543761EAB949100228CBB /* AppDelegate.swift */,
-				3965437D1EAB949100228CBB /* Assets.xcassets */,
-				3965437F1EAB949100228CBB /* LaunchScreen.storyboard */,
-				396543821EAB949100228CBB /* Info.plist */,
 			);
 			path = PersonalPortfolio;
 			sourceTree = "<group>";
@@ -81,6 +80,7 @@
 		396543881EAB96CB00228CBB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3965438A1EAB978000228CBB /* TestTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -88,9 +88,20 @@
 		396543891EAB96D500228CBB /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				3965437A1EAB949100228CBB /* Main.storyboard */,
+				3965438D1EAB980C00228CBB /* LaunchScreen.storyboard */,
+				396543951EAB984300228CBB /* Main.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3965438C1EAB979000228CBB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				396543911EAB982100228CBB /* AppDelegate.swift */,
+				396543931EAB982900228CBB /* Assets.xcassets */,
+				3965438F1EAB981900228CBB /* Info.plist */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		C1A12E439CB9F4E319E41652 /* Frameworks */ = {
@@ -164,9 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				396543811EAB949100228CBB /* LaunchScreen.storyboard in Resources */,
-				3965437E1EAB949100228CBB /* Assets.xcassets in Resources */,
-				3965437C1EAB949100228CBB /* Main.storyboard in Resources */,
+				396543941EAB982900228CBB /* Assets.xcassets in Resources */,
+				3965438E1EAB980C00228CBB /* LaunchScreen.storyboard in Resources */,
+				396543961EAB984300228CBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,30 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				396543771EAB949100228CBB /* AppDelegate.swift in Sources */,
+				396543921EAB982100228CBB /* AppDelegate.swift in Sources */,
+				3965438B1EAB978000228CBB /* TestTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3965437A1EAB949100228CBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3965437B1EAB949100228CBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3965437F1EAB949100228CBB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				396543801EAB949100228CBB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		396543831EAB949100228CBB /* Debug */ = {
@@ -346,9 +339,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B426CADC4EE6A06F1D2B993 /* Pods-PersonalPortfolio.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JA3DANMHQT;
-				INFOPLIST_FILE = PersonalPortfolio/Info.plist;
+				INFOPLIST_FILE = PersonalPortfolio/Utilities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanbrashear.PersonalPortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,9 +354,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF3F8D2066B7575D206F5616 /* Pods-PersonalPortfolio.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JA3DANMHQT;
-				INFOPLIST_FILE = PersonalPortfolio/Info.plist;
+				INFOPLIST_FILE = PersonalPortfolio/Utilities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanbrashear.PersonalPortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
