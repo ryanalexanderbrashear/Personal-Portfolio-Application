@@ -18,30 +18,30 @@
                         <viewControllerLayoutGuide type="bottom" id="00z-Vu-MFZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="maw-yE-1FJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="9HV-1A-5Ji"/>
+                    <tabBarItem key="tabBarItem" title="Portfolio" id="9HV-1A-5Ji" userLabel="Portfolio"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUV-pY-HJf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-18" y="-69"/>
         </scene>
-        <!--Item 4-->
+        <!--Contact-->
         <scene sceneID="6Dy-Am-fpu">
             <objects>
-                <viewController id="P9i-wj-AXo" userLabel="Item 4" sceneMemberID="viewController">
+                <viewController id="P9i-wj-AXo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YQ5-5Z-zwT"/>
                         <viewControllerLayoutGuide type="bottom" id="9w5-Nn-QzM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8wn-AR-tyO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="5x3-Lf-fNs" userLabel="Item 4"/>
+                    <tabBarItem key="tabBarItem" title="Contact" id="5x3-Lf-fNs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Akh-r0-Kns" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,43 +56,43 @@
                         <viewControllerLayoutGuide type="bottom" id="2C3-hp-WJ6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dhX-5F-1zS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="iuE-Gt-Gh7" userLabel="Item 3"/>
+                    <tabBarItem key="tabBarItem" title="Item 3" id="iuE-Gt-Gh7" userLabel="Item 3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zd7-ch-Dec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="735" y="-724"/>
         </scene>
-        <!--Overview-->
+        <!--About-->
         <scene sceneID="Pxb-nL-AnU">
             <objects>
-                <viewController id="bbC-83-B9E" userLabel="Overview" sceneMemberID="viewController">
+                <viewController id="bbC-83-B9E" userLabel="About" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7si-HB-Lrd"/>
                         <viewControllerLayoutGuide type="bottom" id="rnO-nJ-S1v"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AcL-r7-5kd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="mkQ-Rk-44v"/>
+                    <tabBarItem key="tabBarItem" title="About" id="mkQ-Rk-44v" userLabel="About"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SmW-Dt-3uW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-18" y="-723"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="tw4-01-f2U">
             <objects>
-                <tabBarController id="Q21-iy-kwg" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="4Mc-cI-hhn">
+                <tabBarController id="Q21-iy-kwg" customClass="TabBarViewController" customModule="PersonalPortfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="4Mc-cI-hhn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.20000000000000001" green="0.47843137250000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="bbC-83-B9E" kind="relationship" relationship="viewControllers" id="pLy-a8-KkW"/>

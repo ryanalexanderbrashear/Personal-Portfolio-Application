@@ -17,6 +17,9 @@ class IntroViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UIApplication.shared.isStatusBarHidden = false
+        
         self.imageView.layer.borderWidth = 2
         self.imageView.layer.borderColor = UIColor.white.cgColor
         
@@ -24,21 +27,20 @@ class IntroViewController: UIViewController {
         imageView.duration = 2
         imageView.animate()
         
-        nameLabel.animation = "slideDown"
+        nameLabel.animation = "slideLeft"
         nameLabel.delay = 1
         nameLabel.duration = 2
         nameLabel.animate()
         
-        titleLabel.animation = "slideDown"
+        titleLabel.animation = "slideRight"
         titleLabel.delay = 2
         titleLabel.duration = 2
         titleLabel.animateNext {
             self.imageView.animation = "zoomOut"
             self.imageView.animate()
+
             self.performSegue(withIdentifier: "goToMainMenu", sender: self)
         }
-        
-        // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -46,20 +48,4 @@ class IntroViewController: UIViewController {
         self.imageView.layer.cornerRadius = self.imageView.frame.size.width / 2
         self.imageView.clipsToBounds = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
