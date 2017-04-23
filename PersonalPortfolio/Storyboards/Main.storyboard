@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Portfolio-->
+        <!--Applications-->
         <scene sceneID="3M7-bI-Kzs">
             <objects>
-                <viewController id="G17-sw-FZa" userLabel="Portfolio" sceneMemberID="viewController">
+                <viewController id="G17-sw-FZa" userLabel="Applications" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I3X-qO-6dj"/>
                         <viewControllerLayoutGuide type="bottom" id="00z-Vu-MFZ"/>
@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Portfolio" id="9HV-1A-5Ji" userLabel="Portfolio"/>
+                    <tabBarItem key="tabBarItem" title="Applications" image="layoutArrange" id="9HV-1A-5Ji" userLabel="Applications"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUV-pY-HJf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,16 +41,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" id="5x3-Lf-fNs"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="shareConnect" id="5x3-Lf-fNs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Akh-r0-Kns" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="734" y="-70"/>
         </scene>
-        <!--Item 3-->
+        <!--Resume-->
         <scene sceneID="AOg-q4-DjH">
             <objects>
-                <viewController id="lVz-ea-LjQ" userLabel="Item 3" sceneMemberID="viewController">
+                <viewController id="lVz-ea-LjQ" userLabel="Resume" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xIu-dj-ehW"/>
                         <viewControllerLayoutGuide type="bottom" id="2C3-hp-WJ6"/>
@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 3" id="iuE-Gt-Gh7" userLabel="Item 3"/>
+                    <tabBarItem key="tabBarItem" title="Resume" image="pencil" id="iuE-Gt-Gh7" userLabel="Resume"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zd7-ch-Dec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,7 +79,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" id="mkQ-Rk-44v" userLabel="About"/>
+                    <tabBarItem key="tabBarItem" title="About" image="text" id="mkQ-Rk-44v" userLabel="About"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SmW-Dt-3uW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,6 +93,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.20000000000000001" green="0.47843137250000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="bbC-83-B9E" kind="relationship" relationship="viewControllers" id="pLy-a8-KkW"/>
@@ -106,4 +107,10 @@
             <point key="canvasLocation" x="-970" y="-397"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="layoutArrange" width="29" height="30"/>
+        <image name="pencil" width="30" height="30"/>
+        <image name="shareConnect" width="30" height="30"/>
+        <image name="text" width="30" height="30"/>
+    </resources>
 </document>
