@@ -12,7 +12,6 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         for item in tabBar.items! {
             item.setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.lightGray], for: .normal)
             item.setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.white], for: .selected)

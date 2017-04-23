@@ -10,6 +10,9 @@
 		3959E1831EABE7770078F133 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3959E1821EABE7770078F133 /* Intro.storyboard */; };
 		3959E1851EABE7A00078F133 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959E1841EABE7A00078F133 /* IntroViewController.swift */; };
 		3959E1871EAC4E980078F133 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959E1861EAC4E980078F133 /* TabBarViewController.swift */; };
+		3959E1891EAD282E0078F133 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959E1881EAD282E0078F133 /* Utilities.swift */; };
+		3959E18B1EAD29620078F133 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959E18A1EAD29620078F133 /* ContactViewController.swift */; };
+		3959E18D1EAD2B050078F133 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959E18C1EAD2B050078F133 /* PortfolioViewController.swift */; };
 		3965438E1EAB980C00228CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3965438D1EAB980C00228CBB /* LaunchScreen.storyboard */; };
 		396543921EAB982100228CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396543911EAB982100228CBB /* AppDelegate.swift */; };
 		396543941EAB982900228CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396543931EAB982900228CBB /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 		3959E1821EABE7770078F133 /* Intro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Intro.storyboard; path = Storyboards/Intro.storyboard; sourceTree = "<group>"; };
 		3959E1841EABE7A00078F133 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ViewControllers/IntroViewController.swift; sourceTree = "<group>"; };
 		3959E1861EAC4E980078F133 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = ViewControllers/TabBarViewController.swift; sourceTree = "<group>"; };
+		3959E1881EAD282E0078F133 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = Utilities/Utilities.swift; sourceTree = "<group>"; };
+		3959E18A1EAD29620078F133 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = ViewControllers/ContactViewController.swift; sourceTree = "<group>"; };
+		3959E18C1EAD2B050078F133 /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortfolioViewController.swift; path = ViewControllers/PortfolioViewController.swift; sourceTree = "<group>"; };
 		396543731EAB949100228CBB /* PersonalPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3965438D1EAB980C00228CBB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3965438F1EAB981900228CBB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Utilities/Info.plist; sourceTree = "<group>"; };
@@ -86,6 +92,8 @@
 			children = (
 				3959E1841EABE7A00078F133 /* IntroViewController.swift */,
 				3959E1861EAC4E980078F133 /* TabBarViewController.swift */,
+				3959E18A1EAD29620078F133 /* ContactViewController.swift */,
+				3959E18C1EAD2B050078F133 /* PortfolioViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 				396543911EAB982100228CBB /* AppDelegate.swift */,
 				396543931EAB982900228CBB /* Assets.xcassets */,
 				3965438F1EAB981900228CBB /* Info.plist */,
+				3959E1881EAD282E0078F133 /* Utilities.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -244,8 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				396543921EAB982100228CBB /* AppDelegate.swift in Sources */,
+				3959E18D1EAD2B050078F133 /* PortfolioViewController.swift in Sources */,
 				3959E1871EAC4E980078F133 /* TabBarViewController.swift in Sources */,
+				3959E1891EAD282E0078F133 /* Utilities.swift in Sources */,
 				3959E1851EABE7A00078F133 /* IntroViewController.swift in Sources */,
+				3959E18B1EAD29620078F133 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
