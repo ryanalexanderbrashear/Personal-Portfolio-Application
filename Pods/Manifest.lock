@@ -1,8 +1,10 @@
 PODS:
   - Spring (1.0.3)
+  - SwiftSpinner (1.1.0)
 
 DEPENDENCIES:
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftSpinner
 
 EXTERNAL SOURCES:
   Spring:
@@ -16,7 +18,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
 
-PODFILE CHECKSUM: 5d624991d4339bbdf0820380ec1f4a326db7b9e3
+PODFILE CHECKSUM: 833407c209ee4965a4330ad87013aa3564970ee8
 
 COCOAPODS: 1.1.1

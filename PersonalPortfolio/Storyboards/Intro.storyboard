@@ -6,8 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,49 +21,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ryan Brashear Color" translatesAutoresizingMaskIntoConstraints="NO" id="Kvf-Lv-tu2" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="94" y="73.5" width="187.5" height="187.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Kvf-Lv-tu2" secondAttribute="height" multiplier="1:1" id="De0-sG-W2a"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kvf-Lv-tu2" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="0.5" y="0.0" width="375" height="667"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ryan Brashear" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWG-Bm-xxk" customClass="SpringLabel" customModule="Spring">
-                                <rect key="frame" x="91.5" y="277" width="192" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile App Developer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ac-jw-jDZ" customClass="SpringLabel" customModule="Spring">
-                                <rect key="frame" x="52.5" y="330" width="270" height="33.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="270" id="Z2Y-A4-J1A"/>
-                                    <constraint firstAttribute="height" constant="33.5" id="rdx-N1-zd2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.41568627450980389" green="0.73333333333333328" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="7ac-jw-jDZ" firstAttribute="top" secondItem="AWG-Bm-xxk" secondAttribute="bottom" constant="16" id="0OR-iT-LBj"/>
-                            <constraint firstItem="Kvf-Lv-tu2" firstAttribute="width" secondItem="J4y-AJ-zun" secondAttribute="width" multiplier="0.5" id="65T-9x-uhR"/>
-                            <constraint firstItem="Kvf-Lv-tu2" firstAttribute="centerY" secondItem="J4y-AJ-zun" secondAttribute="centerY" multiplier="0.5" id="beH-y3-enO"/>
-                            <constraint firstItem="AWG-Bm-xxk" firstAttribute="centerX" secondItem="J4y-AJ-zun" secondAttribute="centerX" id="gf7-mN-G65"/>
-                            <constraint firstItem="7ac-jw-jDZ" firstAttribute="centerX" secondItem="J4y-AJ-zun" secondAttribute="centerX" id="kd6-CD-iP1"/>
-                            <constraint firstItem="AWG-Bm-xxk" firstAttribute="top" secondItem="Kvf-Lv-tu2" secondAttribute="bottom" constant="16" id="sYK-0x-9vq"/>
-                            <constraint firstItem="Kvf-Lv-tu2" firstAttribute="centerX" secondItem="J4y-AJ-zun" secondAttribute="centerX" id="zby-4D-emp"/>
+                            <constraint firstItem="Kvf-Lv-tu2" firstAttribute="centerX" secondItem="J4y-AJ-zun" secondAttribute="centerX" id="29r-L0-qkF"/>
+                            <constraint firstItem="Kvf-Lv-tu2" firstAttribute="width" secondItem="J4y-AJ-zun" secondAttribute="width" id="I4E-Rk-GTa"/>
+                            <constraint firstItem="Kvf-Lv-tu2" firstAttribute="height" secondItem="J4y-AJ-zun" secondAttribute="height" id="YUS-Md-oUP"/>
+                            <constraint firstItem="Kvf-Lv-tu2" firstAttribute="centerY" secondItem="J4y-AJ-zun" secondAttribute="centerY" id="nCX-7y-7Hr"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="Kvf-Lv-tu2" id="fq5-nt-7iG"/>
-                        <outlet property="nameLabel" destination="AWG-Bm-xxk" id="fOs-0e-8Pn"/>
-                        <outlet property="titleLabel" destination="7ac-jw-jDZ" id="WVd-Q6-bue"/>
+                        <outlet property="imageView" destination="Kvf-Lv-tu2" id="EvR-r2-aE1"/>
                         <segue destination="8cw-IF-FVS" kind="show" identifier="goToMainMenu" id="5kY-E1-qSF"/>
                     </connections>
                 </viewController>
@@ -82,7 +54,4 @@
             <point key="canvasLocation" x="804" y="158"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Ryan Brashear Color" width="3339" height="3339"/>
-    </resources>
 </document>

@@ -32,20 +32,20 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="portfolioCell" id="nUj-LR-ctb">
-                                        <rect key="frame" x="0.0" y="75" width="377" height="449"/>
+                                        <rect key="frame" x="0.0" y="74.5" width="377" height="449"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="377" height="449"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SNp-HD-IVY">
-                                                    <rect key="frame" x="0.0" y="0.0" width="455" height="449"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ryan Brashear Color" translatesAutoresizingMaskIntoConstraints="NO" id="SNp-HD-IVY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="377" height="449"/>
                                                     <color key="backgroundColor" red="0.41568627450000001" green="0.73333333329999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="SNp-HD-IVY" secondAttribute="trailing" constant="-78" id="4ET-82-lHJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="SNp-HD-IVY" secondAttribute="trailing" id="4ET-82-lHJ"/>
                                             <constraint firstItem="SNp-HD-IVY" firstAttribute="leading" secondItem="nUj-LR-ctb" secondAttribute="leading" id="Rsp-fZ-BZB"/>
                                             <constraint firstItem="SNp-HD-IVY" firstAttribute="top" secondItem="nUj-LR-ctb" secondAttribute="top" id="ePn-8z-bju"/>
                                             <constraint firstAttribute="bottom" secondItem="SNp-HD-IVY" secondAttribute="bottom" id="swY-7i-hRi"/>
@@ -155,6 +155,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Ryan Brashear Color" width="3339" height="3339"/>
         <image name="layoutArrange" width="29" height="30"/>
         <image name="pencil" width="30" height="30"/>
         <image name="shareConnect" width="30" height="30"/>
