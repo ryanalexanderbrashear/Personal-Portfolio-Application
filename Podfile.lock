@@ -1,8 +1,10 @@
 PODS:
+  - AnimatedCollectionViewLayout (0.2.0)
   - Spring (1.0.3)
   - SwiftSpinner (1.1.0)
 
 DEPENDENCIES:
+  - AnimatedCollectionViewLayout
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
   - SwiftSpinner
 
@@ -17,9 +19,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 6f385ed7deb673af8989f5240c4b0c32c9d25276
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
 
-PODFILE CHECKSUM: 833407c209ee4965a4330ad87013aa3564970ee8
+PODFILE CHECKSUM: e04df0b4fc50e96bbc65fb24959d3b635441c087
 
 COCOAPODS: 1.1.1

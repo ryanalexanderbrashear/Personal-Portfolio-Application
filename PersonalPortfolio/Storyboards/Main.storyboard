@@ -21,35 +21,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4mV-Kb-aOQ">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4mV-Kb-aOQ">
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
-                                <color key="backgroundColor" red="0.41568627450000001" green="0.73333333329999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Rif-cg-2CM">
-                                    <size key="itemSize" width="377" height="449"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="inL-Vq-VCA">
+                                    <size key="itemSize" width="376" height="558"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="portfolioCell" id="nUj-LR-ctb">
-                                        <rect key="frame" x="0.0" y="74.5" width="377" height="449"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="portfolioCell" id="nUj-LR-ctb" customClass="PortfolioCollectionViewCell" customModule="PersonalPortfolio" customModuleProvider="target">
+                                        <rect key="frame" x="-1" y="0.0" width="376" height="558"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="377" height="449"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="558"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ryan Brashear Color" translatesAutoresizingMaskIntoConstraints="NO" id="SNp-HD-IVY">
-                                                    <rect key="frame" x="0.0" y="0.0" width="377" height="449"/>
-                                                    <color key="backgroundColor" red="0.41568627450000001" green="0.73333333329999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giftit" translatesAutoresizingMaskIntoConstraints="NO" id="XuH-Gs-oHP">
+                                                    <rect key="frame" x="0.0" y="0.0" width="376" height="558"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="SNp-HD-IVY" secondAttribute="trailing" id="4ET-82-lHJ"/>
-                                            <constraint firstItem="SNp-HD-IVY" firstAttribute="leading" secondItem="nUj-LR-ctb" secondAttribute="leading" id="Rsp-fZ-BZB"/>
-                                            <constraint firstItem="SNp-HD-IVY" firstAttribute="top" secondItem="nUj-LR-ctb" secondAttribute="top" id="ePn-8z-bju"/>
-                                            <constraint firstAttribute="bottom" secondItem="SNp-HD-IVY" secondAttribute="bottom" id="swY-7i-hRi"/>
+                                            <constraint firstItem="XuH-Gs-oHP" firstAttribute="top" secondItem="nUj-LR-ctb" secondAttribute="top" id="8rq-Ui-q9n"/>
+                                            <constraint firstItem="XuH-Gs-oHP" firstAttribute="leading" secondItem="nUj-LR-ctb" secondAttribute="leading" id="NNR-fQ-jrP"/>
+                                            <constraint firstAttribute="trailing" secondItem="XuH-Gs-oHP" secondAttribute="trailing" id="YNb-ua-IIf"/>
+                                            <constraint firstAttribute="bottom" secondItem="XuH-Gs-oHP" secondAttribute="bottom" id="iuS-mH-lfX"/>
                                         </constraints>
+                                        <size key="customSize" width="376" height="558"/>
+                                        <connections>
+                                            <outlet property="imageView" destination="XuH-Gs-oHP" id="Z99-Ee-Inw"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -57,18 +61,24 @@
                                     <outlet property="delegate" destination="G17-sw-FZa" id="wBt-56-8V6"/>
                                 </connections>
                             </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="4ju-zb-9pe">
+                                <rect key="frame" x="168" y="581" width="39" height="37"/>
+                            </pageControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.41568627450000001" green="0.73333333329999995" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.47843137250000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="00z-Vu-MFZ" firstAttribute="top" secondItem="4ju-zb-9pe" secondAttribute="bottom" id="5Sc-sy-sQb"/>
                             <constraint firstItem="4mV-Kb-aOQ" firstAttribute="leading" secondItem="maw-yE-1FJ" secondAttribute="leading" id="7Gj-uG-cZ6"/>
                             <constraint firstAttribute="trailing" secondItem="4mV-Kb-aOQ" secondAttribute="trailing" id="Mdi-2e-RSI"/>
                             <constraint firstItem="00z-Vu-MFZ" firstAttribute="top" secondItem="4mV-Kb-aOQ" secondAttribute="bottom" id="UiC-G5-g2F"/>
                             <constraint firstItem="4mV-Kb-aOQ" firstAttribute="top" secondItem="I3X-qO-6dj" secondAttribute="bottom" id="fqT-TI-dyo"/>
+                            <constraint firstItem="4ju-zb-9pe" firstAttribute="centerX" secondItem="maw-yE-1FJ" secondAttribute="centerX" id="o9h-sL-Ocw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Applications" image="layoutArrange" id="9HV-1A-5Ji" userLabel="Applications"/>
                     <connections>
                         <outlet property="collectionView" destination="4mV-Kb-aOQ" id="FRm-qc-RfL"/>
+                        <outlet property="pageControl" destination="4ju-zb-9pe" id="lp7-F1-6WB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUV-pY-HJf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -155,7 +165,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Ryan Brashear Color" width="3339" height="3339"/>
+        <image name="giftit" width="250" height="250"/>
         <image name="layoutArrange" width="29" height="30"/>
         <image name="pencil" width="30" height="30"/>
         <image name="shareConnect" width="30" height="30"/>

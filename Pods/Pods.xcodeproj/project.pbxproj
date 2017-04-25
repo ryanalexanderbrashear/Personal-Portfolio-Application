@@ -7,151 +7,198 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001047695EB7E2C6385D93DF8B3AAFA3 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D354221CDD9FAC30BD7F8DE8C266C67A /* SwiftSpinner.swift */; };
-		05492539835ED9B5426AFAB5C91C4F8C /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A5134DB84F2428823882228B6BAC9 /* DesignableTextView.swift */; };
-		05A221EA10CB8967B7557A8125BD8D9D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BD825C0B6A08830A17333154E5697 /* ImageLoader.swift */; };
-		0DB4888EDBAFE913720D12C7B386302E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		115D80F9BB341F68E9FA123CF2D606BB /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB121AC1FA4AEDAA795FFAAAAB1FEDD3 /* Misc.swift */; };
-		12DD9B08756D50D0D013D093D98357D9 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94048735B1D9E5D09417B5AA2D891F /* DesignableButton.swift */; };
-		1478D85199ADA861524BC4D4A3BAA23F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		1F9B40C39F3E6C3ABC06C9795B24BDA7 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2D0582B6E4605E965662135A5FB6A /* SpringLabel.swift */; };
-		2C0A32ED6AF596D6ACDBB01FD9F0EC8D /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84729412F2AE262D85EB8B112FA21DFC /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30720B7AC97AEF9ABE0380645D62A32D /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636F45080A1A4A046FD4856E63C32054 /* TransitionZoom.swift */; };
-		31BE514CB7685779B1F72C206C5622AE /* Pods-PersonalPortfolio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E9A1F89548B0BF70A5E5C4BC357269 /* Pods-PersonalPortfolio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36878B9B99BD1586E88619443C6A4C24 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D6D9D6F9DDE354E2F155BC0859755 /* BlurView.swift */; };
-		38403B9F0AE660103B02F7DEE16B1E2F /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE482173E30B8E702074349D5C7E5C /* AsyncImageView.swift */; };
-		38884BFC4E0BF99D9AF4FA285BF35716 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A429C934F0958CA8CEC0211D3103F0C6 /* DesignableLabel.swift */; };
-		43C0A54D027155B9A6629563AAAD6CE2 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80942417A7875763AB0F93C23AF471C5 /* DesignableImageView.swift */; };
-		44F3066CBC3F646B8BC5E671123BCBC2 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF800D2CDFA4E6701702C8F9ED8932 /* SoundPlayer.swift */; };
-		452382162F7130B9C8F73AF8C6EE49A6 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3B3CDDE780425685A9FCAE607C06C /* SpringView.swift */; };
-		5A873554F8AC4B9DAF42FD7304B3E8FC /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7424F7A1487976FDBB9A58C0AB12AC47 /* Spring-dummy.m */; };
-		5CAC56D3D6EE3DDDC24FA8F0F23F37DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		6159EC3EA7DCBCEC4F324D2B90BB3E3F /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F04E61FB2E57EB48B82CAFBC695550 /* SpringImageView.swift */; };
-		62C5600E5CA6E5EE23F01FA7EF099E9A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C8B298CE4600A64A49C6CA8AFCF95 /* KeyboardLayoutConstraint.swift */; };
-		686F5C99BAE8076D3C9967CD3098FFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		69BD7EE9DC32AF79AAED87F67EC08371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538D84DA3E59A4F9927E9AFC711FF121 /* Images.xcassets */; };
-		7AB17F81CCD1999E9A3FA1D42E3489EE /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F24FA6D7E560DB0E5374B3818100C98 /* LoadingView.xib */; };
-		7D993FBB79D73CCD9D377692615FFABB /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F651A984FBDF797F413F2CD0FF67400 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		829D4D57ADC9ADB5AF3243F53F3183AE /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22750624C6511D888D8F1262AE32E6 /* AutoTextView.swift */; };
-		86029E181EC076C195BC920AD4A283EA /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2496FC9D77AE64A209686885F1CF844A /* SpringButton.swift */; };
-		92A123F904A56A6AB89E1520A1F62A5F /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CA2CA9DB5B7C0EB226F8F9F91890C /* TransitionManager.swift */; };
-		973FE7B423711640CEC8F2A5ECA92E5F /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD87257631A01D218022ECD649CA1080 /* DesignableTextField.swift */; };
-		9D43789B683235101727C5FD72A5B7C1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265A7E944A12A6EF749675C7D41E37C5 /* LoadingView.swift */; };
-		AA29517ADD9681DA285168C9974EBD97 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A4C3F6691EEEF5196587A6748B2BA1 /* UnwindSegue.swift */; };
-		C60E719969F04C68ECE1AD6BCB10DCCF /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BF2BEFDE9179E208CB09FB0D35182 /* Spring.swift */; };
-		CA24EA13D9B14ABF58E87A4EEEC53A4D /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10408F52FBCD5DC984B380A2EE84BA34 /* SpringTextField.swift */; };
-		CE25B38416415F85FBB1EED2793A46B4 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E64D1C6DA92E98C0DAFD88352731A95 /* DesignableView.swift */; };
-		CE3BAE4EDE6C419A96C58900CCFF9F5B /* Pods-PersonalPortfolio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2336F6142757872875A8B853D7AE3303 /* Pods-PersonalPortfolio-dummy.m */; };
-		D01723327C0D1A7BE54704F8EEE7A70A /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937E10939A80B6E9096BD29568E1A3D /* AsyncButton.swift */; };
-		E3C4AF4985198E194062256D6930283F /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A68E952259308EAF1255231A4566FB7 /* SwiftSpinner-dummy.m */; };
-		E99D917A79A5D33409C0A4FAB13BEDC3 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC65BB975EA62CB8476326CC8D40DE0 /* DesignableTabBarController.swift */; };
-		F0CB2DFDD9580C5EC4056FC7A3F197B1 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77A27549BB5146B76AF95544DD6E15 /* SpringAnimation.swift */; };
-		F81EC3F8A09BCDE5703E63BF17D77C2C /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D6D378BCA39D930B2C4DAA2184EC1 /* SpringTextView.swift */; };
-		FF0A06B02110E98D462F5D7C86F131C9 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964910FF45CC8487E5BDB91919DD160B /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02F845F81EF5F4B91424103488558B5F /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B85F29EAC9B72B30AE1F4694ACA21A /* DesignableLabel.swift */; };
+		0A7FB5C5A612C8C93467162047326831 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9863086A5E509F5B852DECE3D56EE /* DesignableButton.swift */; };
+		0C87DC618DD7EC4392A229A4820201BA /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B1E02DEA9562FA953DADE992162B1 /* SwiftSpinner.swift */; };
+		0FDDDEBF4DB465F3EE253A58B15419DF /* SnapInAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A8DEAC5ACD50386FAAA17E5E4A2CBD /* SnapInAttributesAnimator.swift */; };
+		1125A5CE7857DA14A4C8E6D742C4596F /* RotateInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DCF0FC8B4F6CDCB25FB9DDAC1E1AD3 /* RotateInOutAttributesAnimator.swift */; };
+		12628E2E81AB43E4649979559842ADB3 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359082BDA9AA454DBBED802C616BE327 /* Spring.swift */; };
+		152980918757E5498AD5F76AD08E71F9 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937113CF73CFD17CD557B95B4BFB4FDC /* SwiftSpinner-dummy.m */; };
+		1802C70744FC5ACF32217ACBF5260972 /* ParallaxAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843496C038D2257BCEC6AC5EAE27050 /* ParallaxAttributesAnimator.swift */; };
+		1DB658B6052ECB623162518123B77756 /* CrossFadeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404E60CBCBC02EA08B67D01A82B726C6 /* CrossFadeAttributesAnimator.swift */; };
+		22A26D3E74E4B19405CA087176655E7C /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83645D0435B235F8EF771AE17F898447 /* DesignableTextField.swift */; };
+		25C0613E2A219CCBC754E32839090857 /* LinearCardAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8297985CCC32F4C78DB038572029D1 /* LinearCardAttributesAnimator.swift */; };
+		28086AAAC5A88EDBED510810241C280E /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C54499803083247C8B8C563E42AAD8 /* SoundPlayer.swift */; };
+		2A6C25238B52C6FD532BAB1814162EDB /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6764D9B85F12E074411FD489BCEF99 /* DesignableView.swift */; };
+		3448F958C584DB2F0007F60C1D7C8F0E /* AnimatedCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 912591ED7E993AC81355AF55683BC522 /* AnimatedCollectionViewLayout-dummy.m */; };
+		3F90768978C62DFE0A0159553DB4B1CB /* Pods-PersonalPortfolio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E9A1F89548B0BF70A5E5C4BC357269 /* Pods-PersonalPortfolio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		520A9C5F907E09600B65840BD97D7CC7 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93936FA50EBB52BA98211E2971BFF244 /* UIView+Anchor.swift */; };
+		560E73FA4E4AB4DADA797B14C04AAB3F /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4755A659BBED93D62EA2519DA6517B62 /* SpringAnimation.swift */; };
+		5841B16E45D09AF9240BB77537D2BEBC /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE19B1D110B89F6244889ED19F12D3 /* DesignableTabBarController.swift */; };
+		5B2394E4CF6C71C36C0390593EA6F9DE /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C26359F584C9A6A6BD6719C7E4B98C /* SpringLabel.swift */; };
+		5D0862D049EA4BCA76842D8AF682B3D7 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28F7051B45737B3BEE82D50BE8E12F /* SpringImageView.swift */; };
+		5EB6D514C507F5D44CA96F37792BCA5A /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CB57FCBC331AF607B717DFCB3740AB /* AsyncButton.swift */; };
+		609BF3D1A554F721D6D785BA050FC291 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E632E1678A5CE78382B15F220DDF40E0 /* AsyncImageView.swift */; };
+		61C552D3D8E8535D17FE67E7A1241E2F /* AnimatedCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A096780045210CAD0D055729E4CB261 /* AnimatedCollectionViewLayout.swift */; };
+		675FC8085F139617288ECDF622AFBDB7 /* LayoutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF6CDE3B73543BC28DEE51CB935524 /* LayoutAttributesAnimator.swift */; };
+		6C3E0ED549F157B68511CEA0FCFFBE2C /* CubeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D2D06D19242F4BF0C7659FECED52D /* CubeAttributesAnimator.swift */; };
+		6F3C0B44572D263AA2C84B2DACDD144C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C164306C26CBE5DA89EDE8A5DE8412 /* BlurView.swift */; };
+		77598061452C84F5081B8E6443D689F0 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C492B8062FD5827AC51472A40EF152 /* SpringTextView.swift */; };
+		7926F478A639EAF3624557F932A4E274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		794E9EF7ACFC17C18FA6B471DB64F66E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DCD2E201BF92F9FD8AF4EDCBB38F7E /* LoadingView.swift */; };
+		796869010F283A1B6F5C2B9772A70909 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94C836999F318B66591E15F22DC945 /* SpringView.swift */; };
+		7D917C7327B1A3CF6067CEAC207D79AE /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E5EBE682803BBE952C60EE4F91122 /* DesignableTextView.swift */; };
+		7F40B8BBCC675E39488BCC8C4B49268A /* ZoomInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1DF01E1521888D0AC51AE9A4BCE98 /* ZoomInOutAttributesAnimator.swift */; };
+		7FD18EFA51C04C98CF310BC2569F9E60 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555DD05AB06D471BB7D1DFCB6E8A05B3 /* DesignableImageView.swift */; };
+		80F5166AD35D2857AF917FDB60E73F78 /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8924104F00EB572E72619E9F703A63F2 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CBBFF73AE740A265643FD7779847DA7 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7C390DD72E31ADBB949F224401EFF1 /* KeyboardLayoutConstraint.swift */; };
+		8F58F1ABFE3FBF17544651B4538925BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		92FA46275FCFD8E3AE5E3C1F10288A07 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192ADEBFCB34D715766BD438C097A393 /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941A7F3FABAEDAC8F3078EB50B1774F3 /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F026DA4A551567665F976EA24716EB6 /* Spring-dummy.m */; };
+		981564AECE45D22FBA9F679C195E4AB2 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F026BBF58FC9EAB9EE2A55262A6B3 /* UnwindSegue.swift */; };
+		9F6229298AA5EC5514E6AC59B93F45D2 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1EDD2BCCBDEA83E199B2935E683B /* Misc.swift */; };
+		A0AA1251697051D70A7F3D891B56AA9C /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1D14767BEFA0AEEC1CFA4BA5739E4 /* SpringButton.swift */; };
+		A4312948C1CDF0C35BC92E6118602537 /* AnimatedCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9065E4B161907B83ED36A82EF0517C /* AnimatedCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54630491BB0108B124C967C2A100F08 /* PageAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6AB73E8D4448DBC5DCE0479C0F33A /* PageAttributesAnimator.swift */; };
+		A7C5BBF792FB62EB9D0030BEFD890513 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955345FCFF6B908AA252397C1DA733A /* TransitionZoom.swift */; };
+		ACF16060A3316369ED781CB3C9BA0AC3 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0BA235EDEA0EFEC1FE1F2A19EF5EA /* AutoTextView.swift */; };
+		B0DCBD2DC57EB35148320EE3AD168131 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6DE97E77FFCC421C68A912F6FFCDF6 /* Images.xcassets */; };
+		BB4B6AA799D0A8E8B8C99DFF30305C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		C11B1751E2B7718962BF78ED562C2FF0 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE574A52BC256F177297FAC1D3596F /* SpringTextField.swift */; };
+		CB634D3C9D64543D79728F3745847FA9 /* Pods-PersonalPortfolio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2336F6142757872875A8B853D7AE3303 /* Pods-PersonalPortfolio-dummy.m */; };
+		D6FEFBF3B5E366B72BE8ADD553321225 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB07DDFE7CCFFC3D7FFE8D44089901 /* ImageLoader.swift */; };
+		DF6E3056695DD16EB6973AEE97D23152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E02B5CAB1F5EAC8676EEEAE781CC8E71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E3753BA0A9D28B97A1E93A0AC5D24D05 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADE9589A4892A030A5F978B345B4939 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E97152C7B67073BEB247120D40377D12 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BCBE18B07B4979184F546493E2DD3 /* TransitionManager.swift */; };
+		E99F9AFF07536E2089816FC183D51470 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915EC3FB3B7F667A3EF8590B2E688A17 /* LoadingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68AD1D9001E4670AA1C1F84D9330B6C6 /* PBXContainerItemProxy */ = {
+		92A37C422400F4B0692E1266C3FBCCA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3FD413B12BFCAA0EFD9AA92CFD004019;
-			remoteInfo = SwiftSpinner;
-		};
-		D16BF62609930A4E66F5CDD837A8F792 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0D587C9E0CEA34B5EBCCC4CE04980C5;
+			remoteGlobalIDString = AEBB6587F556FDC42B160D6243F69EB5;
 			remoteInfo = Spring;
+		};
+		AC316AE93D112266E1245B2027A5E5C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B5F9358EAD17782FA546BF99060034;
+			remoteInfo = AnimatedCollectionViewLayout;
+		};
+		D8584DCACC87D4FCC4B7FD4E221C8E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFD5B06828DEE996FF6639871945B71;
+			remoteInfo = SwiftSpinner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D813CE8E6DD3C7CD202DFA7DE760E5 /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
-		0C3172DE7AD076A348D7F04E0519BFA2 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10408F52FBCD5DC984B380A2EE84BA34 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		05B85F29EAC9B72B30AE1F4694ACA21A /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		13921497580379CC1378B6A2D1F4F914 /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
 		16E9A1F89548B0BF70A5E5C4BC357269 /* Pods-PersonalPortfolio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PersonalPortfolio-umbrella.h"; sourceTree = "<group>"; };
-		174D6D9D6F9DDE354E2F155BC0859755 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		192ADEBFCB34D715766BD438C097A393 /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
 		1976663DB2DCDDE3072CFFB41381790C /* Pods-PersonalPortfolio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PersonalPortfolio-acknowledgements.plist"; sourceTree = "<group>"; };
 		1BA11C9A919764EC22D4300335DEA6FF /* Pods-PersonalPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalPortfolio.release.xcconfig"; sourceTree = "<group>"; };
+		1CE1D14767BEFA0AEEC1CFA4BA5739E4 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
 		2336F6142757872875A8B853D7AE3303 /* Pods-PersonalPortfolio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PersonalPortfolio-dummy.m"; sourceTree = "<group>"; };
-		2496FC9D77AE64A209686885F1CF844A /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
-		2544176BB32DB67030574ACD32B88EB1 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spring.framework; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		265A7E944A12A6EF749675C7D41E37C5 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
-		2CC65BB975EA62CB8476326CC8D40DE0 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
-		2E64D1C6DA92E98C0DAFD88352731A95 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
-		36EB03794F20C02DB9875FAE461F2535 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
-		38F04E61FB2E57EB48B82CAFBC695550 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
-		409BD825C0B6A08830A17333154E5697 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
-		45F3B3CDDE780425685A9FCAE607C06C /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
-		538D84DA3E59A4F9927E9AFC711FF121 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
-		5F24FA6D7E560DB0E5374B3818100C98 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
-		5F651A984FBDF797F413F2CD0FF67400 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		2A6F026BBF58FC9EAB9EE2A55262A6B3 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		2ADE9589A4892A030A5F978B345B4939 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		2C6764D9B85F12E074411FD489BCEF99 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		359082BDA9AA454DBBED802C616BE327 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		37C1DF01E1521888D0AC51AE9A4BCE98 /* ZoomInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomInOutAttributesAnimator.swift; path = Source/ZoomInOutAttributesAnimator.swift; sourceTree = "<group>"; };
+		404E60CBCBC02EA08B67D01A82B726C6 /* CrossFadeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossFadeAttributesAnimator.swift; path = Source/CrossFadeAttributesAnimator.swift; sourceTree = "<group>"; };
+		44866A58615D52030A786C74CC12046B /* AnimatedCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		44EE19B1D110B89F6244889ED19F12D3 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		4725E879B32ACF840008ABE540361E5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474885B0ADC786F5C2255E726C136414 /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		4755A659BBED93D62EA2519DA6517B62 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		4843496C038D2257BCEC6AC5EAE27050 /* ParallaxAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxAttributesAnimator.swift; path = Source/ParallaxAttributesAnimator.swift; sourceTree = "<group>"; };
+		555DD05AB06D471BB7D1DFCB6E8A05B3 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		56C54499803083247C8B8C563E42AAD8 /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		58DCF0FC8B4F6CDCB25FB9DDAC1E1AD3 /* RotateInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotateInOutAttributesAnimator.swift; path = Source/RotateInOutAttributesAnimator.swift; sourceTree = "<group>"; };
+		5B5DB66B1009DD8D4676A97A13D379AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E94C836999F318B66591E15F22DC945 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		5FF9863086A5E509F5B852DECE3D56EE /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		60A8DEAC5ACD50386FAAA17E5E4A2CBD /* SnapInAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapInAttributesAnimator.swift; path = Source/SnapInAttributesAnimator.swift; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		636F45080A1A4A046FD4856E63C32054 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
-		642557BF105FEEDD9A06020B26B3A94D /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Spring.modulemap; sourceTree = "<group>"; };
+		63F6AB73E8D4448DBC5DCE0479C0F33A /* PageAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageAttributesAnimator.swift; path = Source/PageAttributesAnimator.swift; sourceTree = "<group>"; };
 		649BD374A6576646CB12BD1480244253 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D620640E6ADDB28DA3FD55BCAB3973E /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
-		7424F7A1487976FDBB9A58C0AB12AC47 /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
-		7937E10939A80B6E9096BD29568E1A3D /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
-		7E77A27549BB5146B76AF95544DD6E15 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
-		7EAE482173E30B8E702074349D5C7E5C /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		651B84F6F63F2144C308F55598D21C7E /* AnimatedCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedCollectionViewLayout.framework; path = AnimatedCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67813BCF00CFF77512125B5C809A80A9 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spring.framework; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DCD2E201BF92F9FD8AF4EDCBB38F7E /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		739BCBE18B07B4979184F546493E2DD3 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		74B98A8D31500C1C1299ABFE9AA7D48D /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		74C26359F584C9A6A6BD6719C7E4B98C /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		7A7D2D06D19242F4BF0C7659FECED52D /* CubeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAttributesAnimator.swift; path = Source/CubeAttributesAnimator.swift; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		80942417A7875763AB0F93C23AF471C5 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
-		84729412F2AE262D85EB8B112FA21DFC /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
-		853BF2BEFDE9179E208CB09FB0D35182 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
-		876CA2CA9DB5B7C0EB226F8F9F91890C /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
-		8A68E952259308EAF1255231A4566FB7 /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
-		8C0C8B298CE4600A64A49C6CA8AFCF95 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		83645D0435B235F8EF771AE17F898447 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		848D91AEB712129901F86F8D48DC32D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C5A8A71B40F2357A7A2C87680B3350 /* AnimatedCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnimatedCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		8924104F00EB572E72619E9F703A63F2 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		8A096780045210CAD0D055729E4CB261 /* AnimatedCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayout.swift; path = Source/AnimatedCollectionViewLayout.swift; sourceTree = "<group>"; };
+		8B6DE97E77FFCC421C68A912F6FFCDF6 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		8D9065E4B161907B83ED36A82EF0517C /* AnimatedCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
 		8DC1C097AF18441540E5E61CFB9F6E68 /* Pods-PersonalPortfolio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PersonalPortfolio.modulemap"; sourceTree = "<group>"; };
-		8F22750624C6511D888D8F1262AE32E6 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		8F026DA4A551567665F976EA24716EB6 /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		8F7B1E02DEA9562FA953DADE992162B1 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		912591ED7E993AC81355AF55683BC522 /* AnimatedCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		915EC3FB3B7F667A3EF8590B2E688A17 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		937113CF73CFD17CD557B95B4BFB4FDC /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		93936FA50EBB52BA98211E2971BFF244 /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "Source/UIView+Anchor.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95306792E0FDE52FEA4A10AAE533935A /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
-		964910FF45CC8487E5BDB91919DD160B /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
-		A429C934F0958CA8CEC0211D3103F0C6 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
-		A66A5134DB84F2428823882228B6BAC9 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
-		A9ED31AA39D94FE1CBF539D489362FCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAA13DA0F91126EEF74A19D072EFE1D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD87257631A01D218022ECD649CA1080 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
-		B21B0CDD2091ED3A3B21E8A727549F85 /* Pods_PersonalPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PersonalPortfolio.framework; path = "Pods-PersonalPortfolio.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB94048735B1D9E5D09417B5AA2D891F /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
-		C70DB341F87F2A17163845DAB05BD414 /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
-		CC4D6D378BCA39D930B2C4DAA2184EC1 /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
-		CFD2D0582B6E4605E965662135A5FB6A /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
-		D1A4C3F6691EEEF5196587A6748B2BA1 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
-		D2EF800D2CDFA4E6701702C8F9ED8932 /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
-		D354221CDD9FAC30BD7F8DE8C266C67A /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		93CB57FCBC331AF607B717DFCB3740AB /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		984A1EDD2BCCBDEA83E199B2935E683B /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		9862CBE0598451042F35FB71EDC0F51D /* Pods_PersonalPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PersonalPortfolio.framework; path = "Pods-PersonalPortfolio.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9955345FCFF6B908AA252397C1DA733A /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		9AEE574A52BC256F177297FAC1D3596F /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		A0E0BA235EDEA0EFEC1FE1F2A19EF5EA /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		B5AEF5061372E8B7953FF3DBE9881842 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		C2C492B8062FD5827AC51472A40EF152 /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		C7C164306C26CBE5DA89EDE8A5DE8412 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		C97CA8538F0AF94EC10AB986E9C837DE /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Spring.modulemap; sourceTree = "<group>"; };
+		CF7C390DD72E31ADBB949F224401EFF1 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
 		DCE78EFC298E92D9E8DFF5EC28BAED1A /* Pods-PersonalPortfolio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PersonalPortfolio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E271A57D893C97A7CC0EE73A00C51D7B /* AnimatedCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		E4FF6CDE3B73543BC28DEE51CB935524 /* LayoutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAttributesAnimator.swift; path = Source/LayoutAttributesAnimator.swift; sourceTree = "<group>"; };
+		E632E1678A5CE78382B15F220DDF40E0 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
 		E68DF1828EA5C83EBD598D2BC2EC4BE6 /* Pods-PersonalPortfolio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonalPortfolio-resources.sh"; sourceTree = "<group>"; };
 		E8CACEDAE0374F8765C2242680511101 /* Pods-PersonalPortfolio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PersonalPortfolio-frameworks.sh"; sourceTree = "<group>"; };
-		EB121AC1FA4AEDAA795FFAAAAB1FEDD3 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		EBB44D4537D14AD08FFF310B140DF45B /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		EC9E5EBE682803BBE952C60EE4F91122 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		EE8297985CCC32F4C78DB038572029D1 /* LinearCardAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearCardAttributesAnimator.swift; path = Source/LinearCardAttributesAnimator.swift; sourceTree = "<group>"; };
+		EF28F7051B45737B3BEE82D50BE8E12F /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
 		FA4D1901EF14CF72E1BA2DF259DE0AF7 /* Pods-PersonalPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PersonalPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
+		FCCB07DDFE7CCFFC3D7FFE8D44089901 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		FF14C6F9550A884014895B50155E233C /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C5C8C2F594C994413D2BFD9F78C3E8A /* Frameworks */ = {
+		2643741AD0593894F06C670D7CADA3F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CAC56D3D6EE3DDDC24FA8F0F23F37DD /* Foundation.framework in Frameworks */,
+				E02B5CAB1F5EAC8676EEEAE781CC8E71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E82AEA178DCE554BA83F3DF69946164 /* Frameworks */ = {
+		3F4DFB68E244795E117677808CD155EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1478D85199ADA861524BC4D4A3BAA23F /* Foundation.framework in Frameworks */,
+				7926F478A639EAF3624557F932A4E274 /* Foundation.framework in Frameworks */,
+				BB4B6AA799D0A8E8B8C99DFF30305C78 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F50AFC8ABDCE6050C800E4C837A2CE44 /* Frameworks */ = {
+		7B286E7A43102940D94EC219C3FBC877 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DB4888EDBAFE913720D12C7B386302E /* Foundation.framework in Frameworks */,
-				686F5C99BAE8076D3C9967CD3098FFE7 /* UIKit.framework in Frameworks */,
+				8F58F1ABFE3FBF17544651B4538925BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C362A1252604E11EF810C286F18947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6E3056695DD16EB6973AEE97D23152 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +223,31 @@
 			path = "Target Support Files/Pods-PersonalPortfolio";
 			sourceTree = "<group>";
 		};
+		244BBA13AA8810F83A176C6F5BE3169A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B5DB66B1009DD8D4676A97A13D379AF /* Info.plist */,
+				B5AEF5061372E8B7953FF3DBE9881842 /* SwiftSpinner.modulemap */,
+				474885B0ADC786F5C2255E726C136414 /* SwiftSpinner.xcconfig */,
+				937113CF73CFD17CD557B95B4BFB4FDC /* SwiftSpinner-dummy.m */,
+				EBB44D4537D14AD08FFF310B140DF45B /* SwiftSpinner-prefix.pch */,
+				8924104F00EB572E72619E9F703A63F2 /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		319B6BE8269EE95E0AA14C477FDED816 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE9589A4892A030A5F978B345B4939 /* SwiftSpinner.h */,
+				8F7B1E02DEA9562FA953DADE992162B1 /* SwiftSpinner.swift */,
+				244BBA13AA8810F83A176C6F5BE3169A /* Support Files */,
+			);
+			name = SwiftSpinner;
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,13 +256,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5D7C40C7C76C71CBB278DC7DC29C910A /* Resources */ = {
+		51F57F54FBCDF19FEE1A8D364EADA0E3 /* Spring */ = {
 			isa = PBXGroup;
 			children = (
-				538D84DA3E59A4F9927E9AFC711FF121 /* Images.xcassets */,
-				5F24FA6D7E560DB0E5374B3818100C98 /* LoadingView.xib */,
+				93CB57FCBC331AF607B717DFCB3740AB /* AsyncButton.swift */,
+				E632E1678A5CE78382B15F220DDF40E0 /* AsyncImageView.swift */,
+				A0E0BA235EDEA0EFEC1FE1F2A19EF5EA /* AutoTextView.swift */,
+				C7C164306C26CBE5DA89EDE8A5DE8412 /* BlurView.swift */,
+				5FF9863086A5E509F5B852DECE3D56EE /* DesignableButton.swift */,
+				555DD05AB06D471BB7D1DFCB6E8A05B3 /* DesignableImageView.swift */,
+				05B85F29EAC9B72B30AE1F4694ACA21A /* DesignableLabel.swift */,
+				44EE19B1D110B89F6244889ED19F12D3 /* DesignableTabBarController.swift */,
+				83645D0435B235F8EF771AE17F898447 /* DesignableTextField.swift */,
+				EC9E5EBE682803BBE952C60EE4F91122 /* DesignableTextView.swift */,
+				2C6764D9B85F12E074411FD489BCEF99 /* DesignableView.swift */,
+				FCCB07DDFE7CCFFC3D7FFE8D44089901 /* ImageLoader.swift */,
+				CF7C390DD72E31ADBB949F224401EFF1 /* KeyboardLayoutConstraint.swift */,
+				70DCD2E201BF92F9FD8AF4EDCBB38F7E /* LoadingView.swift */,
+				984A1EDD2BCCBDEA83E199B2935E683B /* Misc.swift */,
+				56C54499803083247C8B8C563E42AAD8 /* SoundPlayer.swift */,
+				359082BDA9AA454DBBED802C616BE327 /* Spring.swift */,
+				4755A659BBED93D62EA2519DA6517B62 /* SpringAnimation.swift */,
+				1CE1D14767BEFA0AEEC1CFA4BA5739E4 /* SpringButton.swift */,
+				EF28F7051B45737B3BEE82D50BE8E12F /* SpringImageView.swift */,
+				74C26359F584C9A6A6BD6719C7E4B98C /* SpringLabel.swift */,
+				9AEE574A52BC256F177297FAC1D3596F /* SpringTextField.swift */,
+				C2C492B8062FD5827AC51472A40EF152 /* SpringTextView.swift */,
+				5E94C836999F318B66591E15F22DC945 /* SpringView.swift */,
+				739BCBE18B07B4979184F546493E2DD3 /* TransitionManager.swift */,
+				9955345FCFF6B908AA252397C1DA733A /* TransitionZoom.swift */,
+				2A6F026BBF58FC9EAB9EE2A55262A6B3 /* UnwindSegue.swift */,
+				BED32C04F63B8913D436157453F8619D /* Resources */,
+				52134A25FA85817369128D5796B684EF /* Support Files */,
 			);
-			name = Resources;
+			name = Spring;
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		52134A25FA85817369128D5796B684EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				848D91AEB712129901F86F8D48DC32D4 /* Info.plist */,
+				C97CA8538F0AF94EC10AB986E9C837DE /* Spring.modulemap */,
+				74B98A8D31500C1C1299ABFE9AA7D48D /* Spring.xcconfig */,
+				8F026DA4A551567665F976EA24716EB6 /* Spring-dummy.m */,
+				13921497580379CC1378B6A2D1F4F914 /* Spring-prefix.pch */,
+				192ADEBFCB34D715766BD438C097A393 /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -198,80 +312,54 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				AAD2FEE3D9FC61AB8DFB50688CCCE5B8 /* Pods */,
-				B50F66C38D0A57EA7FDB3D6331045EC4 /* Products */,
+				96DB3E9B1AD016BB2230AD31D423C6D2 /* Pods */,
+				DA15B2844B4A6A277C21E64C76788E55 /* Products */,
 				F1D6B6D065DE8435BCA6E8902AF49989 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		88F19E7DAEF6CB0321EB98B6AC146F3E /* Support Files */ = {
+		96DB3E9B1AD016BB2230AD31D423C6D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A9ED31AA39D94FE1CBF539D489362FCB /* Info.plist */,
-				36EB03794F20C02DB9875FAE461F2535 /* SwiftSpinner.modulemap */,
-				6D620640E6ADDB28DA3FD55BCAB3973E /* SwiftSpinner.xcconfig */,
-				8A68E952259308EAF1255231A4566FB7 /* SwiftSpinner-dummy.m */,
-				95306792E0FDE52FEA4A10AAE533935A /* SwiftSpinner-prefix.pch */,
-				84729412F2AE262D85EB8B112FA21DFC /* SwiftSpinner-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftSpinner";
-			sourceTree = "<group>";
-		};
-		AAD2FEE3D9FC61AB8DFB50688CCCE5B8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DBD4634CB9D3D15F669E3D1025922561 /* Spring */,
-				F50B56112792121E3F4A9BF8C393B99F /* SwiftSpinner */,
+				EC15DE0250A7EFAF608CACEDA394EF1E /* AnimatedCollectionViewLayout */,
+				51F57F54FBCDF19FEE1A8D364EADA0E3 /* Spring */,
+				319B6BE8269EE95E0AA14C477FDED816 /* SwiftSpinner */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B50F66C38D0A57EA7FDB3D6331045EC4 /* Products */ = {
+		BED32C04F63B8913D436157453F8619D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B21B0CDD2091ED3A3B21E8A727549F85 /* Pods_PersonalPortfolio.framework */,
-				2544176BB32DB67030574ACD32B88EB1 /* Spring.framework */,
-				0C3172DE7AD076A348D7F04E0519BFA2 /* SwiftSpinner.framework */,
+				8B6DE97E77FFCC421C68A912F6FFCDF6 /* Images.xcassets */,
+				915EC3FB3B7F667A3EF8590B2E688A17 /* LoadingView.xib */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		DBD4634CB9D3D15F669E3D1025922561 /* Spring */ = {
+		BF9C8F9E38D50FEC37FFD6E09BA4DD84 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7937E10939A80B6E9096BD29568E1A3D /* AsyncButton.swift */,
-				7EAE482173E30B8E702074349D5C7E5C /* AsyncImageView.swift */,
-				8F22750624C6511D888D8F1262AE32E6 /* AutoTextView.swift */,
-				174D6D9D6F9DDE354E2F155BC0859755 /* BlurView.swift */,
-				BB94048735B1D9E5D09417B5AA2D891F /* DesignableButton.swift */,
-				80942417A7875763AB0F93C23AF471C5 /* DesignableImageView.swift */,
-				A429C934F0958CA8CEC0211D3103F0C6 /* DesignableLabel.swift */,
-				2CC65BB975EA62CB8476326CC8D40DE0 /* DesignableTabBarController.swift */,
-				AD87257631A01D218022ECD649CA1080 /* DesignableTextField.swift */,
-				A66A5134DB84F2428823882228B6BAC9 /* DesignableTextView.swift */,
-				2E64D1C6DA92E98C0DAFD88352731A95 /* DesignableView.swift */,
-				409BD825C0B6A08830A17333154E5697 /* ImageLoader.swift */,
-				8C0C8B298CE4600A64A49C6CA8AFCF95 /* KeyboardLayoutConstraint.swift */,
-				265A7E944A12A6EF749675C7D41E37C5 /* LoadingView.swift */,
-				EB121AC1FA4AEDAA795FFAAAAB1FEDD3 /* Misc.swift */,
-				D2EF800D2CDFA4E6701702C8F9ED8932 /* SoundPlayer.swift */,
-				853BF2BEFDE9179E208CB09FB0D35182 /* Spring.swift */,
-				7E77A27549BB5146B76AF95544DD6E15 /* SpringAnimation.swift */,
-				2496FC9D77AE64A209686885F1CF844A /* SpringButton.swift */,
-				38F04E61FB2E57EB48B82CAFBC695550 /* SpringImageView.swift */,
-				CFD2D0582B6E4605E965662135A5FB6A /* SpringLabel.swift */,
-				10408F52FBCD5DC984B380A2EE84BA34 /* SpringTextField.swift */,
-				CC4D6D378BCA39D930B2C4DAA2184EC1 /* SpringTextView.swift */,
-				45F3B3CDDE780425685A9FCAE607C06C /* SpringView.swift */,
-				876CA2CA9DB5B7C0EB226F8F9F91890C /* TransitionManager.swift */,
-				636F45080A1A4A046FD4856E63C32054 /* TransitionZoom.swift */,
-				D1A4C3F6691EEEF5196587A6748B2BA1 /* UnwindSegue.swift */,
-				5D7C40C7C76C71CBB278DC7DC29C910A /* Resources */,
-				FF562860EE76B20731BCFFB12BAF162F /* Support Files */,
+				88C5A8A71B40F2357A7A2C87680B3350 /* AnimatedCollectionViewLayout.modulemap */,
+				E271A57D893C97A7CC0EE73A00C51D7B /* AnimatedCollectionViewLayout.xcconfig */,
+				912591ED7E993AC81355AF55683BC522 /* AnimatedCollectionViewLayout-dummy.m */,
+				44866A58615D52030A786C74CC12046B /* AnimatedCollectionViewLayout-prefix.pch */,
+				8D9065E4B161907B83ED36A82EF0517C /* AnimatedCollectionViewLayout-umbrella.h */,
+				4725E879B32ACF840008ABE540361E5F /* Info.plist */,
 			);
-			name = Spring;
-			path = Spring;
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		DA15B2844B4A6A277C21E64C76788E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651B84F6F63F2144C308F55598D21C7E /* AnimatedCollectionViewLayout.framework */,
+				9862CBE0598451042F35FB71EDC0F51D /* Pods_PersonalPortfolio.framework */,
+				67813BCF00CFF77512125B5C809A80A9 /* Spring.framework */,
+				FF14C6F9550A884014895B50155E233C /* SwiftSpinner.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -283,6 +371,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EC15DE0250A7EFAF608CACEDA394EF1E /* AnimatedCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8A096780045210CAD0D055729E4CB261 /* AnimatedCollectionViewLayout.swift */,
+				404E60CBCBC02EA08B67D01A82B726C6 /* CrossFadeAttributesAnimator.swift */,
+				7A7D2D06D19242F4BF0C7659FECED52D /* CubeAttributesAnimator.swift */,
+				E4FF6CDE3B73543BC28DEE51CB935524 /* LayoutAttributesAnimator.swift */,
+				EE8297985CCC32F4C78DB038572029D1 /* LinearCardAttributesAnimator.swift */,
+				63F6AB73E8D4448DBC5DCE0479C0F33A /* PageAttributesAnimator.swift */,
+				4843496C038D2257BCEC6AC5EAE27050 /* ParallaxAttributesAnimator.swift */,
+				58DCF0FC8B4F6CDCB25FB9DDAC1E1AD3 /* RotateInOutAttributesAnimator.swift */,
+				60A8DEAC5ACD50386FAAA17E5E4A2CBD /* SnapInAttributesAnimator.swift */,
+				93936FA50EBB52BA98211E2971BFF244 /* UIView+Anchor.swift */,
+				37C1DF01E1521888D0AC51AE9A4BCE98 /* ZoomInOutAttributesAnimator.swift */,
+				BF9C8F9E38D50FEC37FFD6E09BA4DD84 /* Support Files */,
+			);
+			name = AnimatedCollectionViewLayout;
+			path = AnimatedCollectionViewLayout;
+			sourceTree = "<group>";
+		};
 		F1D6B6D065DE8435BCA6E8902AF49989 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,69 +399,69 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F50B56112792121E3F4A9BF8C393B99F /* SwiftSpinner */ = {
-			isa = PBXGroup;
-			children = (
-				5F651A984FBDF797F413F2CD0FF67400 /* SwiftSpinner.h */,
-				D354221CDD9FAC30BD7F8DE8C266C67A /* SwiftSpinner.swift */,
-				88F19E7DAEF6CB0321EB98B6AC146F3E /* Support Files */,
-			);
-			name = SwiftSpinner;
-			path = SwiftSpinner;
-			sourceTree = "<group>";
-		};
-		FF562860EE76B20731BCFFB12BAF162F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AAA13DA0F91126EEF74A19D072EFE1D4 /* Info.plist */,
-				642557BF105FEEDD9A06020B26B3A94D /* Spring.modulemap */,
-				C70DB341F87F2A17163845DAB05BD414 /* Spring.xcconfig */,
-				7424F7A1487976FDBB9A58C0AB12AC47 /* Spring-dummy.m */,
-				05D813CE8E6DD3C7CD202DFA7DE760E5 /* Spring-prefix.pch */,
-				964910FF45CC8487E5BDB91919DD160B /* Spring-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Spring";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4028B25F3AFF149F1A9C518C9C01D6C3 /* Headers */ = {
+		A411D4ACDF0E6BF58F01DE08738702D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BE514CB7685779B1F72C206C5622AE /* Pods-PersonalPortfolio-umbrella.h in Headers */,
+				80F5166AD35D2857AF917FDB60E73F78 /* SwiftSpinner-umbrella.h in Headers */,
+				E3753BA0A9D28B97A1E93A0AC5D24D05 /* SwiftSpinner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44DACC8BFBA6B6B3D6DF3C442BA3C648 /* Headers */ = {
+		CD22FD7D889DDD75136E3A022E855F7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0A06B02110E98D462F5D7C86F131C9 /* Spring-umbrella.h in Headers */,
+				A4312948C1CDF0C35BC92E6118602537 /* AnimatedCollectionViewLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E944DA45D7FD52F7F018636226CD87AD /* Headers */ = {
+		D029CE2B044415E04ED4CF7E2C18EBCD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0A32ED6AF596D6ACDBB01FD9F0EC8D /* SwiftSpinner-umbrella.h in Headers */,
-				7D993FBB79D73CCD9D377692615FFABB /* SwiftSpinner.h in Headers */,
+				3F90768978C62DFE0A0159553DB4B1CB /* Pods-PersonalPortfolio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDE4F8083B7380A8A2D7B6D2EF7F7FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FA46275FCFD8E3AE5E3C1F10288A07 /* Spring-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3FD413B12BFCAA0EFD9AA92CFD004019 /* SwiftSpinner */ = {
+		01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 330A7E36C246CFABAE8D6D4541DE39FD /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildConfigurationList = F6C88F719B2AF55EEFFD88A2BE8F10DD /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */;
 			buildPhases = (
-				A5D378AD6A93587B0DFF224F8396748C /* Sources */,
-				F50AFC8ABDCE6050C800E4C837A2CE44 /* Frameworks */,
-				E944DA45D7FD52F7F018636226CD87AD /* Headers */,
+				809FA6DE3ED35BB7B97126DA58072C76 /* Sources */,
+				7B286E7A43102940D94EC219C3FBC877 /* Frameworks */,
+				CD22FD7D889DDD75136E3A022E855F7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedCollectionViewLayout;
+			productName = AnimatedCollectionViewLayout;
+			productReference = 651B84F6F63F2144C308F55598D21C7E /* AnimatedCollectionViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CFD5B06828DEE996FF6639871945B71 /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E008FCC2BCC5A531A9823AAF3A1E57 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				EE5F089B70C426E7CD3F436BFA8A8306 /* Sources */,
+				3F4DFB68E244795E117677808CD155EB /* Frameworks */,
+				A411D4ACDF0E6BF58F01DE08738702D1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -361,36 +469,17 @@
 			);
 			name = SwiftSpinner;
 			productName = SwiftSpinner;
-			productReference = 0C3172DE7AD076A348D7F04E0519BFA2 /* SwiftSpinner.framework */;
+			productReference = FF14C6F9550A884014895B50155E233C /* SwiftSpinner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8ECF849D23BD061CE8C4C671B85E32CC /* Pods-PersonalPortfolio */ = {
+		AEBB6587F556FDC42B160D6243F69EB5 /* Spring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7438F6C755F3DB63CB94B2BF0B6FF301 /* Build configuration list for PBXNativeTarget "Pods-PersonalPortfolio" */;
+			buildConfigurationList = 7E068C72585F7D42D9F139C1D1D7C711 /* Build configuration list for PBXNativeTarget "Spring" */;
 			buildPhases = (
-				AC5AA9D045C22B66C3960A9B8177E552 /* Sources */,
-				3C5C8C2F594C994413D2BFD9F78C3E8A /* Frameworks */,
-				4028B25F3AFF149F1A9C518C9C01D6C3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0DEA0893482484E10AEAAD3D332B6A37 /* PBXTargetDependency */,
-				57D6A91C9601A93F8D6DFECCB971E83E /* PBXTargetDependency */,
-			);
-			name = "Pods-PersonalPortfolio";
-			productName = "Pods-PersonalPortfolio";
-			productReference = B21B0CDD2091ED3A3B21E8A727549F85 /* Pods_PersonalPortfolio.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F0D587C9E0CEA34B5EBCCC4CE04980C5 /* Spring */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8054620C3B1B4F55DE3EA6FB07132538 /* Build configuration list for PBXNativeTarget "Spring" */;
-			buildPhases = (
-				8A907440FFC155B4A5980B3DCEDB6759 /* Sources */,
-				6E82AEA178DCE554BA83F3DF69946164 /* Frameworks */,
-				658AE7D8683B72824FB0E157D109A15F /* Resources */,
-				44DACC8BFBA6B6B3D6DF3C442BA3C648 /* Headers */,
+				21AC037F2A12C208076A32E58014C123 /* Sources */,
+				2643741AD0593894F06C670D7CADA3F4 /* Frameworks */,
+				061AEDF6D9A2AC8DD3A2A08D9C5B425C /* Resources */,
+				FDDE4F8083B7380A8A2D7B6D2EF7F7FA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -398,7 +487,27 @@
 			);
 			name = Spring;
 			productName = Spring;
-			productReference = 2544176BB32DB67030574ACD32B88EB1 /* Spring.framework */;
+			productReference = 67813BCF00CFF77512125B5C809A80A9 /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1A329AC84C9F6D24722435118878C49 /* Pods-PersonalPortfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7676E27D9403BC9AA653232ADF430F /* Build configuration list for PBXNativeTarget "Pods-PersonalPortfolio" */;
+			buildPhases = (
+				A624C26B2DEE848317E83407EDFB1BCE /* Sources */,
+				88C362A1252604E11EF810C286F18947 /* Frameworks */,
+				D029CE2B044415E04ED4CF7E2C18EBCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7BFE8879A6C1C35C34CF4E7C95FB872 /* PBXTargetDependency */,
+				C49559DEEC4CE9A91870D1770A011E25 /* PBXTargetDependency */,
+				F388FA6E097D24248FB568BD1B587158 /* PBXTargetDependency */,
+			);
+			name = "Pods-PersonalPortfolio";
+			productName = "Pods-PersonalPortfolio";
+			productReference = 9862CBE0598451042F35FB71EDC0F51D /* Pods_PersonalPortfolio.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -418,134 +527,127 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B50F66C38D0A57EA7FDB3D6331045EC4 /* Products */;
+			productRefGroup = DA15B2844B4A6A277C21E64C76788E55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8ECF849D23BD061CE8C4C671B85E32CC /* Pods-PersonalPortfolio */,
-				F0D587C9E0CEA34B5EBCCC4CE04980C5 /* Spring */,
-				3FD413B12BFCAA0EFD9AA92CFD004019 /* SwiftSpinner */,
+				01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */,
+				E1A329AC84C9F6D24722435118878C49 /* Pods-PersonalPortfolio */,
+				AEBB6587F556FDC42B160D6243F69EB5 /* Spring */,
+				5CFD5B06828DEE996FF6639871945B71 /* SwiftSpinner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		658AE7D8683B72824FB0E157D109A15F /* Resources */ = {
+		061AEDF6D9A2AC8DD3A2A08D9C5B425C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69BD7EE9DC32AF79AAED87F67EC08371 /* Images.xcassets in Resources */,
-				7AB17F81CCD1999E9A3FA1D42E3489EE /* LoadingView.xib in Resources */,
+				B0DCBD2DC57EB35148320EE3AD168131 /* Images.xcassets in Resources */,
+				E99F9AFF07536E2089816FC183D51470 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A907440FFC155B4A5980B3DCEDB6759 /* Sources */ = {
+		21AC037F2A12C208076A32E58014C123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01723327C0D1A7BE54704F8EEE7A70A /* AsyncButton.swift in Sources */,
-				38403B9F0AE660103B02F7DEE16B1E2F /* AsyncImageView.swift in Sources */,
-				829D4D57ADC9ADB5AF3243F53F3183AE /* AutoTextView.swift in Sources */,
-				36878B9B99BD1586E88619443C6A4C24 /* BlurView.swift in Sources */,
-				12DD9B08756D50D0D013D093D98357D9 /* DesignableButton.swift in Sources */,
-				43C0A54D027155B9A6629563AAAD6CE2 /* DesignableImageView.swift in Sources */,
-				38884BFC4E0BF99D9AF4FA285BF35716 /* DesignableLabel.swift in Sources */,
-				E99D917A79A5D33409C0A4FAB13BEDC3 /* DesignableTabBarController.swift in Sources */,
-				973FE7B423711640CEC8F2A5ECA92E5F /* DesignableTextField.swift in Sources */,
-				05492539835ED9B5426AFAB5C91C4F8C /* DesignableTextView.swift in Sources */,
-				CE25B38416415F85FBB1EED2793A46B4 /* DesignableView.swift in Sources */,
-				05A221EA10CB8967B7557A8125BD8D9D /* ImageLoader.swift in Sources */,
-				62C5600E5CA6E5EE23F01FA7EF099E9A /* KeyboardLayoutConstraint.swift in Sources */,
-				9D43789B683235101727C5FD72A5B7C1 /* LoadingView.swift in Sources */,
-				115D80F9BB341F68E9FA123CF2D606BB /* Misc.swift in Sources */,
-				44F3066CBC3F646B8BC5E671123BCBC2 /* SoundPlayer.swift in Sources */,
-				5A873554F8AC4B9DAF42FD7304B3E8FC /* Spring-dummy.m in Sources */,
-				C60E719969F04C68ECE1AD6BCB10DCCF /* Spring.swift in Sources */,
-				F0CB2DFDD9580C5EC4056FC7A3F197B1 /* SpringAnimation.swift in Sources */,
-				86029E181EC076C195BC920AD4A283EA /* SpringButton.swift in Sources */,
-				6159EC3EA7DCBCEC4F324D2B90BB3E3F /* SpringImageView.swift in Sources */,
-				1F9B40C39F3E6C3ABC06C9795B24BDA7 /* SpringLabel.swift in Sources */,
-				CA24EA13D9B14ABF58E87A4EEEC53A4D /* SpringTextField.swift in Sources */,
-				F81EC3F8A09BCDE5703E63BF17D77C2C /* SpringTextView.swift in Sources */,
-				452382162F7130B9C8F73AF8C6EE49A6 /* SpringView.swift in Sources */,
-				92A123F904A56A6AB89E1520A1F62A5F /* TransitionManager.swift in Sources */,
-				30720B7AC97AEF9ABE0380645D62A32D /* TransitionZoom.swift in Sources */,
-				AA29517ADD9681DA285168C9974EBD97 /* UnwindSegue.swift in Sources */,
+				5EB6D514C507F5D44CA96F37792BCA5A /* AsyncButton.swift in Sources */,
+				609BF3D1A554F721D6D785BA050FC291 /* AsyncImageView.swift in Sources */,
+				ACF16060A3316369ED781CB3C9BA0AC3 /* AutoTextView.swift in Sources */,
+				6F3C0B44572D263AA2C84B2DACDD144C /* BlurView.swift in Sources */,
+				0A7FB5C5A612C8C93467162047326831 /* DesignableButton.swift in Sources */,
+				7FD18EFA51C04C98CF310BC2569F9E60 /* DesignableImageView.swift in Sources */,
+				02F845F81EF5F4B91424103488558B5F /* DesignableLabel.swift in Sources */,
+				5841B16E45D09AF9240BB77537D2BEBC /* DesignableTabBarController.swift in Sources */,
+				22A26D3E74E4B19405CA087176655E7C /* DesignableTextField.swift in Sources */,
+				7D917C7327B1A3CF6067CEAC207D79AE /* DesignableTextView.swift in Sources */,
+				2A6C25238B52C6FD532BAB1814162EDB /* DesignableView.swift in Sources */,
+				D6FEFBF3B5E366B72BE8ADD553321225 /* ImageLoader.swift in Sources */,
+				8CBBFF73AE740A265643FD7779847DA7 /* KeyboardLayoutConstraint.swift in Sources */,
+				794E9EF7ACFC17C18FA6B471DB64F66E /* LoadingView.swift in Sources */,
+				9F6229298AA5EC5514E6AC59B93F45D2 /* Misc.swift in Sources */,
+				28086AAAC5A88EDBED510810241C280E /* SoundPlayer.swift in Sources */,
+				941A7F3FABAEDAC8F3078EB50B1774F3 /* Spring-dummy.m in Sources */,
+				12628E2E81AB43E4649979559842ADB3 /* Spring.swift in Sources */,
+				560E73FA4E4AB4DADA797B14C04AAB3F /* SpringAnimation.swift in Sources */,
+				A0AA1251697051D70A7F3D891B56AA9C /* SpringButton.swift in Sources */,
+				5D0862D049EA4BCA76842D8AF682B3D7 /* SpringImageView.swift in Sources */,
+				5B2394E4CF6C71C36C0390593EA6F9DE /* SpringLabel.swift in Sources */,
+				C11B1751E2B7718962BF78ED562C2FF0 /* SpringTextField.swift in Sources */,
+				77598061452C84F5081B8E6443D689F0 /* SpringTextView.swift in Sources */,
+				796869010F283A1B6F5C2B9772A70909 /* SpringView.swift in Sources */,
+				E97152C7B67073BEB247120D40377D12 /* TransitionManager.swift in Sources */,
+				A7C5BBF792FB62EB9D0030BEFD890513 /* TransitionZoom.swift in Sources */,
+				981564AECE45D22FBA9F679C195E4AB2 /* UnwindSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5D378AD6A93587B0DFF224F8396748C /* Sources */ = {
+		809FA6DE3ED35BB7B97126DA58072C76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C4AF4985198E194062256D6930283F /* SwiftSpinner-dummy.m in Sources */,
-				001047695EB7E2C6385D93DF8B3AAFA3 /* SwiftSpinner.swift in Sources */,
+				3448F958C584DB2F0007F60C1D7C8F0E /* AnimatedCollectionViewLayout-dummy.m in Sources */,
+				61C552D3D8E8535D17FE67E7A1241E2F /* AnimatedCollectionViewLayout.swift in Sources */,
+				1DB658B6052ECB623162518123B77756 /* CrossFadeAttributesAnimator.swift in Sources */,
+				6C3E0ED549F157B68511CEA0FCFFBE2C /* CubeAttributesAnimator.swift in Sources */,
+				675FC8085F139617288ECDF622AFBDB7 /* LayoutAttributesAnimator.swift in Sources */,
+				25C0613E2A219CCBC754E32839090857 /* LinearCardAttributesAnimator.swift in Sources */,
+				A54630491BB0108B124C967C2A100F08 /* PageAttributesAnimator.swift in Sources */,
+				1802C70744FC5ACF32217ACBF5260972 /* ParallaxAttributesAnimator.swift in Sources */,
+				1125A5CE7857DA14A4C8E6D742C4596F /* RotateInOutAttributesAnimator.swift in Sources */,
+				0FDDDEBF4DB465F3EE253A58B15419DF /* SnapInAttributesAnimator.swift in Sources */,
+				520A9C5F907E09600B65840BD97D7CC7 /* UIView+Anchor.swift in Sources */,
+				7F40B8BBCC675E39488BCC8C4B49268A /* ZoomInOutAttributesAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC5AA9D045C22B66C3960A9B8177E552 /* Sources */ = {
+		A624C26B2DEE848317E83407EDFB1BCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3BAE4EDE6C419A96C58900CCFF9F5B /* Pods-PersonalPortfolio-dummy.m in Sources */,
+				CB634D3C9D64543D79728F3745847FA9 /* Pods-PersonalPortfolio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5F089B70C426E7CD3F436BFA8A8306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152980918757E5498AD5F76AD08E71F9 /* SwiftSpinner-dummy.m in Sources */,
+				0C87DC618DD7EC4392A229A4820201BA /* SwiftSpinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DEA0893482484E10AEAAD3D332B6A37 /* PBXTargetDependency */ = {
+		C49559DEEC4CE9A91870D1770A011E25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Spring;
-			target = F0D587C9E0CEA34B5EBCCC4CE04980C5 /* Spring */;
-			targetProxy = D16BF62609930A4E66F5CDD837A8F792 /* PBXContainerItemProxy */;
+			target = AEBB6587F556FDC42B160D6243F69EB5 /* Spring */;
+			targetProxy = 92A37C422400F4B0692E1266C3FBCCA6 /* PBXContainerItemProxy */;
 		};
-		57D6A91C9601A93F8D6DFECCB971E83E /* PBXTargetDependency */ = {
+		D7BFE8879A6C1C35C34CF4E7C95FB872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedCollectionViewLayout;
+			target = 01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */;
+			targetProxy = AC316AE93D112266E1245B2027A5E5C8 /* PBXContainerItemProxy */;
+		};
+		F388FA6E097D24248FB568BD1B587158 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftSpinner;
-			target = 3FD413B12BFCAA0EFD9AA92CFD004019 /* SwiftSpinner */;
-			targetProxy = 68AD1D9001E4670AA1C1F84D9330B6C6 /* PBXContainerItemProxy */;
+			target = 5CFD5B06828DEE996FF6639871945B71 /* SwiftSpinner */;
+			targetProxy = D8584DCACC87D4FCC4B7FD4E221C8E2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DBA9206588ABB2997D55E8D7487319D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C70DB341F87F2A17163845DAB05BD414 /* Spring.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Spring;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3339CE4F92E1C3474184D8D4433410B7 /* Debug */ = {
+		11D9DC021DA9A6DC9B76B392BE722D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA4D1901EF14CF72E1BA2DF259DE0AF7 /* Pods-PersonalPortfolio.debug.xcconfig */;
 			buildSettings = {
@@ -581,9 +683,9 @@
 			};
 			name = Debug;
 		};
-		373BE0403CDA30E26B2BB4DD0E9E5552 /* Debug */ = {
+		12A91CF5225F6BD7B3419D947B1EA4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D620640E6ADDB28DA3FD55BCAB3973E /* SwiftSpinner.xcconfig */;
+			baseConfigurationReference = 474885B0ADC786F5C2255E726C136414 /* SwiftSpinner.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -614,15 +716,15 @@
 			};
 			name = Debug;
 		};
-		4FF0FA7D1BB31EAC1CBCD9B92117001C /* Release */ = {
+		431BE71D692480BACBCA21F1454E4317 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C70DB341F87F2A17163845DAB05BD414 /* Spring.xcconfig */;
+			baseConfigurationReference = 74B98A8D31500C1C1299ABFE9AA7D48D /* Spring.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -635,8 +737,41 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AE217CAE2F822415462EB84860A8B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E271A57D893C97A7CC0EE73A00C51D7B /* AnimatedCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -686,9 +821,109 @@
 			};
 			name = Release;
 		};
-		993C627BBE27DEAF39C5D682D1853D13 /* Release */ = {
+		73040F4CE04E3D4CE90DFA15B0A5024E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D620640E6ADDB28DA3FD55BCAB3973E /* SwiftSpinner.xcconfig */;
+			baseConfigurationReference = 1BA11C9A919764EC22D4300335DEA6FF /* Pods-PersonalPortfolio.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PersonalPortfolio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PersonalPortfolio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		742490E6E61FE44B137F9EABBC3BFB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E271A57D893C97A7CC0EE73A00C51D7B /* AnimatedCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA159C139EE171C252E57FBCEFE96A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B98A8D31500C1C1299ABFE9AA7D48D /* Spring.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBA9879EBB07BE8D7381A31AD11CE32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474885B0ADC786F5C2255E726C136414 /* SwiftSpinner.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -762,44 +997,27 @@
 			};
 			name = Debug;
 		};
-		F274BD8995EA4C44023A3F474E48F1B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BA11C9A919764EC22D4300335DEA6FF /* Pods-PersonalPortfolio.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PersonalPortfolio/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PersonalPortfolio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C7676E27D9403BC9AA653232ADF430F /* Build configuration list for PBXNativeTarget "Pods-PersonalPortfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9DC021DA9A6DC9B76B392BE722D30 /* Debug */,
+				73040F4CE04E3D4CE90DFA15B0A5024E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E008FCC2BCC5A531A9823AAF3A1E57 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A91CF5225F6BD7B3419D947B1EA4F3 /* Debug */,
+				CBA9879EBB07BE8D7381A31AD11CE32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -809,29 +1027,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		330A7E36C246CFABAE8D6D4541DE39FD /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+		7E068C72585F7D42D9F139C1D1D7C711 /* Build configuration list for PBXNativeTarget "Spring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				373BE0403CDA30E26B2BB4DD0E9E5552 /* Debug */,
-				993C627BBE27DEAF39C5D682D1853D13 /* Release */,
+				431BE71D692480BACBCA21F1454E4317 /* Debug */,
+				CA159C139EE171C252E57FBCEFE96A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7438F6C755F3DB63CB94B2BF0B6FF301 /* Build configuration list for PBXNativeTarget "Pods-PersonalPortfolio" */ = {
+		F6C88F719B2AF55EEFFD88A2BE8F10DD /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3339CE4F92E1C3474184D8D4433410B7 /* Debug */,
-				F274BD8995EA4C44023A3F474E48F1B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8054620C3B1B4F55DE3EA6FB07132538 /* Build configuration list for PBXNativeTarget "Spring" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DBA9206588ABB2997D55E8D7487319D /* Debug */,
-				4FF0FA7D1BB31EAC1CBCD9B92117001C /* Release */,
+				742490E6E61FE44B137F9EABBC3BFB34 /* Debug */,
+				5AE217CAE2F822415462EB84860A8B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
