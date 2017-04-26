@@ -19,7 +19,8 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pageControl.pageIndicatorTintColor = UIColor.blue
+        pageControl.pageIndicatorTintColor = UIColor(hex: "6ABBEA")
+        pageControl.isUserInteractionEnabled = false
         pageControl.currentPageIndicatorTintColor = UIColor.black
         pageControl.numberOfPages = totalCollectionViewCells
         pageControl.currentPage = 1

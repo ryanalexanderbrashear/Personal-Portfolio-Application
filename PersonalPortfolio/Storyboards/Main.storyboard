@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q21-iy-kwg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q21-iy-kwg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -32,7 +32,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="portfolioCell" id="nUj-LR-ctb" customClass="PortfolioCollectionViewCell" customModule="PersonalPortfolio" customModuleProvider="target">
-                                        <rect key="frame" x="-1" y="0.0" width="376" height="558"/>
+                                        <rect key="frame" x="-0.5" y="0.0" width="376" height="558"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="376" height="558"/>
@@ -126,7 +126,7 @@
         <!--About-->
         <scene sceneID="Pxb-nL-AnU">
             <objects>
-                <viewController id="bbC-83-B9E" userLabel="About" sceneMemberID="viewController">
+                <viewController id="bbC-83-B9E" userLabel="About" customClass="AboutViewController" customModule="PersonalPortfolio" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7si-HB-Lrd"/>
                         <viewControllerLayoutGuide type="bottom" id="rnO-nJ-S1v"/>
@@ -140,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SmW-Dt-3uW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-18" y="-723"/>
+            <point key="canvasLocation" x="-18.399999999999999" y="-723.68815592203907"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="tw4-01-f2U">

@@ -17,6 +17,7 @@
 		396543921EAB982100228CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396543911EAB982100228CBB /* AppDelegate.swift */; };
 		396543941EAB982900228CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396543931EAB982900228CBB /* Assets.xcassets */; };
 		396543961EAB984300228CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396543951EAB984300228CBB /* Main.storyboard */; };
+		39A2CF1E1EAFB9400085525C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2CF1D1EAFB9400085525C /* AboutViewController.swift */; };
 		3C9E6671FF28A98E90686210 /* Pods_PersonalPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAC6AD6951DF88CB076579A /* Pods_PersonalPortfolio.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		396543911EAB982100228CBB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Utilities/AppDelegate.swift; sourceTree = "<group>"; };
 		396543931EAB982900228CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Utilities/Assets.xcassets; sourceTree = "<group>"; };
 		396543951EAB984300228CBB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		39A2CF1D1EAFB9400085525C /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ViewControllers/AboutViewController.swift; sourceTree = "<group>"; };
 		4B426CADC4EE6A06F1D2B993 /* Pods-PersonalPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalPortfolio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		7CAC6AD6951DF88CB076579A /* Pods_PersonalPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3F8D2066B7575D206F5616 /* Pods-PersonalPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalPortfolio.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				3959E1861EAC4E980078F133 /* TabBarViewController.swift */,
 				3959E18A1EAD29620078F133 /* ContactViewController.swift */,
 				3959E18C1EAD2B050078F133 /* PortfolioViewController.swift */,
+				39A2CF1D1EAFB9400085525C /* AboutViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -157,7 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Ryan Brashear";
 				TargetAttributes = {
 					396543721EAB949100228CBB = {
@@ -255,6 +258,7 @@
 				396543921EAB982100228CBB /* AppDelegate.swift in Sources */,
 				3959E18D1EAD2B050078F133 /* PortfolioViewController.swift in Sources */,
 				3959E1871EAC4E980078F133 /* TabBarViewController.swift in Sources */,
+				39A2CF1E1EAFB9400085525C /* AboutViewController.swift in Sources */,
 				3959E1891EAD282E0078F133 /* Utilities.swift in Sources */,
 				3959E1851EABE7A00078F133 /* IntroViewController.swift in Sources */,
 				3959E18B1EAD29620078F133 /* ContactViewController.swift in Sources */,
