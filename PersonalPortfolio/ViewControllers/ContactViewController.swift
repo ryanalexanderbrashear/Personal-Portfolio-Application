@@ -7,7 +7,92 @@
 //
 
 import UIKit
+import Spring
+import Font_Awesome_Swift
 
 class ContactViewController: UIViewController {
 
+    @IBOutlet weak var profileImageView: SpringImageView!
+    @IBOutlet weak var callButton: UIButton!
+    @IBOutlet weak var gitHubButton: UIButton!
+    @IBOutlet weak var websiteButton: UIButton!
+    @IBOutlet weak var emailButton: UIButton!
+    @IBOutlet weak var linkedInButton: UIButton!
+    @IBOutlet weak var facebookButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        gitHubButton.setFAIcon(icon: .FAGithub, iconSize: 45.0, forState: .normal)
+        setupButton(button: gitHubButton)
+        
+        facebookButton.setFAIcon(icon: .FAFacebook, iconSize: 45.0, forState: .normal)
+        setupButton(button: facebookButton)
+        
+        callButton.setFAIcon(icon: .FAPhone, iconSize: 45.0, forState: .normal)
+        setupButton(button: callButton)
+        
+        emailButton.setFAIcon(icon: .FAEnvelopeO, iconSize: 45.0, forState: .normal)
+        setupButton(button: emailButton)
+        
+        websiteButton.setFAIcon(icon: .FAChrome, iconSize: 45.0, forState: .normal)
+        setupButton(button: websiteButton)
+        
+        linkedInButton.setFAIcon(icon: .FALinkedin, iconSize: 45.0, forState: .normal)
+        setupButton(button: linkedInButton)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        profileImageView.image = #imageLiteral(resourceName: "ryanBrashearColor")
+        profileImageView.animation = "zoomIn"
+        profileImageView.duration = 1.0
+        profileImageView.damping = 1.0
+        profileImageView.animate()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        profileImageView.image = nil
+    }
+    
+    func setupButton(button: UIButton) {
+        button.setFATitleColor(color: UIColor.white)
+        button.layer.borderColor = UIColor.black.cgColor
+        button.layer.borderWidth = 2
+    }
+    
+    @IBAction func callButtonTapped(_ sender: Any) {
+        let number = URL(string: "telprompt://" + "16062160399")!
+        UIApplication.shared.open(number)
+    }
+    
+    @IBAction func gitHubButtonTapped(_ sender: Any) {
+        let url = URL(string: "https://github.com/ryanbrashear")!
+        UIApplication.shared.open(url)
+    }
+    
+    @IBAction func websiteButtonTapped(_ sender: Any) {
+        let url = URL(string: "http://www.ryanbrashear.com")!
+        UIApplication.shared.open(url)
+    }
+    
+    @IBAction func emailButtonTapped(_ sender: Any) {
+        let email = "alexbrashear@gmail.com"
+        if let url = URL(string: "mailto:\(email)") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    @IBAction func linkedInButtonTapped(_ sender: Any) {
+        let url = URL(string: "https://www.linkedin.com/in/ryanbrashear/")!
+        UIApplication.shared.open(url)
+    }
+    
+    @IBAction func facebookButtonTapped(_ sender: Any) {
+        let url = URL(string: "http://www.google.com")!
+        UIApplication.shared.open(url)
+    }
+    
 }

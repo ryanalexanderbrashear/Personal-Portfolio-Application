@@ -14,7 +14,7 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
     
-    var totalCollectionViewCells = 2
+    var totalCollectionViewCells = 4
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,8 +38,12 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
         cell.backgroundColor = UIColor.black
         if indexPath.row == 0 {
             cell.imageView.image = #imageLiteral(resourceName: "giftit")
-        } else {
+        } else if indexPath.row == 1 {
             cell.imageView.image = #imageLiteral(resourceName: "HUG")
+        } else if indexPath.row == 2 {
+            cell.imageView.image = #imageLiteral(resourceName: "CHIRP")
+        } else {
+            cell.imageView.image = #imageLiteral(resourceName: "KUNC")
         }
         
         return cell
@@ -48,7 +52,7 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         pageControl.currentPage = indexPath.row
     }
-
+    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
