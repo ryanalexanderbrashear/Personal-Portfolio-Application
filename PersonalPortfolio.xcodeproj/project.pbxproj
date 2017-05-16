@@ -18,6 +18,7 @@
 		396543941EAB982900228CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396543931EAB982900228CBB /* Assets.xcassets */; };
 		396543961EAB984300228CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396543951EAB984300228CBB /* Main.storyboard */; };
 		39A2CF1E1EAFB9400085525C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2CF1D1EAFB9400085525C /* AboutViewController.swift */; };
+		39F320601EC60A8A0093E89B /* PortfolioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3205F1EC60A8A0093E89B /* PortfolioItem.swift */; };
 		3C9E6671FF28A98E90686210 /* Pods_PersonalPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAC6AD6951DF88CB076579A /* Pods_PersonalPortfolio.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		396543931EAB982900228CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Utilities/Assets.xcassets; sourceTree = "<group>"; };
 		396543951EAB984300228CBB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		39A2CF1D1EAFB9400085525C /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ViewControllers/AboutViewController.swift; sourceTree = "<group>"; };
+		39F3205F1EC60A8A0093E89B /* PortfolioItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortfolioItem.swift; path = Models/PortfolioItem.swift; sourceTree = "<group>"; };
 		4B426CADC4EE6A06F1D2B993 /* Pods-PersonalPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalPortfolio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		7CAC6AD6951DF88CB076579A /* Pods_PersonalPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3F8D2066B7575D206F5616 /* Pods-PersonalPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalPortfolio.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalPortfolio/Pods-PersonalPortfolio.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		396543751EAB949100228CBB /* PersonalPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				39F3205E1EC60A5C0093E89B /* Models */,
 				3965438C1EAB979000228CBB /* Utilities */,
 				396543891EAB96D500228CBB /* Storyboards */,
 				396543881EAB96CB00228CBB /* ViewControllers */,
@@ -120,6 +123,14 @@
 				3959E1881EAD282E0078F133 /* Utilities.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		39F3205E1EC60A5C0093E89B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39F3205F1EC60A8A0093E89B /* PortfolioItem.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		C1A12E439CB9F4E319E41652 /* Frameworks */ = {
@@ -258,6 +269,7 @@
 				396543921EAB982100228CBB /* AppDelegate.swift in Sources */,
 				3959E18D1EAD2B050078F133 /* PortfolioViewController.swift in Sources */,
 				3959E1871EAC4E980078F133 /* TabBarViewController.swift in Sources */,
+				39F320601EC60A8A0093E89B /* PortfolioItem.swift in Sources */,
 				39A2CF1E1EAFB9400085525C /* AboutViewController.swift in Sources */,
 				3959E1891EAD282E0078F133 /* Utilities.swift in Sources */,
 				3959E1851EABE7A00078F133 /* IntroViewController.swift in Sources */,

@@ -211,14 +211,14 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0A5-0s-EKn" userLabel="View 9">
                                                 <rect key="frame" x="210" y="124" width="105" height="94"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PF9-xk-nSf">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PF9-xk-nSf" userLabel="GitLab Button">
                                                         <rect key="frame" x="14.5" y="9.5" width="75" height="75"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="75" id="Ecw-W4-WDO"/>
                                                             <constraint firstAttribute="width" secondItem="PF9-xk-nSf" secondAttribute="height" multiplier="1:1" id="HSp-Ce-day"/>
                                                         </constraints>
                                                         <connections>
-                                                            <action selector="facebookButtonTapped:" destination="P9i-wj-AXo" eventType="touchUpInside" id="Njh-hy-Bnv"/>
+                                                            <action selector="gitLabButtonTapped:" destination="P9i-wj-AXo" eventType="touchUpInside" id="3MJ-MC-ECk"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -286,8 +286,8 @@
                     <connections>
                         <outlet property="callButton" destination="msk-b9-QmW" id="EnJ-kz-zjO"/>
                         <outlet property="emailButton" destination="ZgB-PU-rgH" id="j3i-yZ-iEf"/>
-                        <outlet property="facebookButton" destination="PF9-xk-nSf" id="Gwn-uT-oyV"/>
                         <outlet property="gitHubButton" destination="gS8-UE-kmn" id="1AU-wf-AEI"/>
+                        <outlet property="gitLabButton" destination="PF9-xk-nSf" id="wPG-XL-qae"/>
                         <outlet property="linkedInButton" destination="BS7-Ff-bU8" id="lbR-2a-Bc5"/>
                         <outlet property="profileImageView" destination="Dkb-6b-Vu5" id="Ifv-dM-XpT"/>
                         <outlet property="websiteButton" destination="PA4-Pa-WX2" id="8hC-ri-Omf"/>

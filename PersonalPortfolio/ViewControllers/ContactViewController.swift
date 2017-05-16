@@ -18,16 +18,16 @@ class ContactViewController: UIViewController {
     @IBOutlet weak var websiteButton: UIButton!
     @IBOutlet weak var emailButton: UIButton!
     @IBOutlet weak var linkedInButton: UIButton!
-    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var gitLabButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+            
         gitHubButton.setFAIcon(icon: .FAGithub, iconSize: 45.0, forState: .normal)
         setupButton(button: gitHubButton)
         
-        facebookButton.setFAIcon(icon: .FAFacebook, iconSize: 45.0, forState: .normal)
-        setupButton(button: facebookButton)
+        gitLabButton.setFAIcon(icon: .FAGitlab, iconSize: 45.0, forState: .normal)
+        setupButton(button: gitLabButton)
         
         callButton.setFAIcon(icon: .FAPhone, iconSize: 45.0, forState: .normal)
         setupButton(button: callButton)
@@ -40,6 +40,11 @@ class ContactViewController: UIViewController {
         
         linkedInButton.setFAIcon(icon: .FALinkedin, iconSize: 45.0, forState: .normal)
         setupButton(button: linkedInButton)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.shared.isStatusBarHidden = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -55,6 +60,7 @@ class ContactViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         profileImageView.image = nil
+        UIApplication.shared.isStatusBarHidden = false
     }
     
     func setupButton(button: UIButton) {
@@ -90,8 +96,8 @@ class ContactViewController: UIViewController {
         UIApplication.shared.open(url)
     }
     
-    @IBAction func facebookButtonTapped(_ sender: Any) {
-        let url = URL(string: "http://www.google.com")!
+    @IBAction func gitLabButtonTapped(_ sender: Any) {
+        let url = URL(string: "https://gitlab.com/ryanbrashear")!
         UIApplication.shared.open(url)
     }
     
