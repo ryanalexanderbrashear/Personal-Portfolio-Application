@@ -43,6 +43,12 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
         collectionView.collectionViewLayout = layout
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? PortfolioDetailViewController {
+            destination.portfolioItem = selectedPortfolioItem
+        }
+    }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "portfolioCell", for: indexPath as IndexPath) as! PortfolioCollectionViewCell
         
@@ -54,7 +60,7 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedPortfolioItem = portfolioItems[indexPath.row]
-        //performSegue(withIdentifier: "showPortfolioDetail", sender: self)
+        performSegue(withIdentifier: "showPortfolioDetail", sender: self)
     }
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
@@ -69,15 +75,10 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
         return portfolioItems.count
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue.destination as? PortfolioDetailViewController {
-            destination.portfolioItem = selectedPortfolioItem
-        }
+    @IBAction func unwindToPortfolio(segue: UIStoryboardSegue) {
     }
 }
 
 class PortfolioCollectionViewCell: UICollectionViewCell {
-    
     @IBOutlet weak var imageView: UIImageView!
-    
 }

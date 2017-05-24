@@ -33,5 +33,7 @@ class PortfolioDetailViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func backButtonTapped(_ sender: Any) {
+        performSegue(withIdentifier: "unwindToPortfolio", sender: self)
+    }
 }

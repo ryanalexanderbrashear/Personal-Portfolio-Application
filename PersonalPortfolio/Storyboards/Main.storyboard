@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="-18.399999999999999" y="-69.715142428785612"/>
         </scene>
-        <!--View Controller-->
+        <!--Portfolio Detail View Controller-->
         <scene sceneID="YRr-ag-GC1">
             <objects>
-                <viewController id="SpN-mJ-4g1" sceneMemberID="viewController">
+                <viewController id="SpN-mJ-4g1" customClass="PortfolioDetailViewController" customModule="PersonalPortfolio" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DSQ-zB-Mpo"/>
                         <viewControllerLayoutGuide type="bottom" id="PR3-NU-mZG"/>
@@ -99,10 +99,43 @@
                     <view key="view" contentMode="scaleToFill" id="XKr-Yt-xtb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OA3-C7-m9h">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.47843137250000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="pSB-iY-v5p"/>
+                                </constraints>
+                                <color key="tintColor" red="0.20000000000000001" green="0.47843137250000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.20000000000000001" green="0.47843137250000001" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Title" id="HhC-GA-uHa">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Y0k-Sb-tej">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <action selector="backButtonTapped:" destination="SpN-mJ-4g1" id="9Be-5S-KCD"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OA3-C7-m9h" firstAttribute="leading" secondItem="XKr-Yt-xtb" secondAttribute="leading" id="0p6-0Y-y7C"/>
+                            <constraint firstAttribute="trailing" secondItem="OA3-C7-m9h" secondAttribute="trailing" id="jAv-an-ABc"/>
+                            <constraint firstItem="OA3-C7-m9h" firstAttribute="top" secondItem="XKr-Yt-xtb" secondAttribute="top" id="oxF-vk-gIo"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="XZZ-aH-XhA" kind="unwind" identifier="unwindToPortfolio" unwindAction="unwindToPortfolioWithSegue:" id="HyG-KO-7kS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWP-Gc-Rfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="XZZ-aH-XhA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-18" y="754"/>
         </scene>
