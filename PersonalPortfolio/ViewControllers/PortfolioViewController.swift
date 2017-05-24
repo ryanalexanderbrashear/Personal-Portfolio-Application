@@ -14,15 +14,26 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
     
-    var totalCollectionViewCells = 3
+    var portfolioItems: [PortfolioItem] = []
+    var selectedPortfolioItem: PortfolioItem?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let hugItem = PortfolioItem(appName: "HUG", responsibilityDescription: "Test", logoImage: #imageLiteral(resourceName: "HUG"), linkToAppStore: URL(string: "https://itunes.apple.com/us/app/hug-reading-program/id1228314146?mt=8")!)
+        
+        let chirpItem = PortfolioItem(appName: "CHIRP", responsibilityDescription: "Test", logoImage: #imageLiteral(resourceName: "CHIRP"), linkToAppStore: URL(string: "https://itunes.apple.com/us/app/hug-reading-program/id1228314146?mt=8")!)
+        
+        let kuncItem = PortfolioItem(appName: "KUNC", responsibilityDescription: "Test", logoImage: #imageLiteral(resourceName: "KUNC"), linkToAppStore: URL(string: "https://itunes.apple.com/us/app/hug-reading-program/id1228314146?mt=8")!)
+        
+        portfolioItems.append(hugItem)
+        portfolioItems.append(chirpItem)
+        portfolioItems.append(kuncItem)
+        
         pageControl.pageIndicatorTintColor = UIColor(hex: "6ABBEA")
         pageControl.isUserInteractionEnabled = false
         pageControl.currentPageIndicatorTintColor = UIColor.black
-        pageControl.numberOfPages = totalCollectionViewCells
+        pageControl.numberOfPages = portfolioItems.count
         pageControl.currentPage = 1
         
         let layout = AnimatedCollectionViewLayout()
@@ -36,19 +47,14 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "portfolioCell", for: indexPath as IndexPath) as! PortfolioCollectionViewCell
         
         cell.backgroundColor = UIColor.black
-        if indexPath.row == 0 {
-            cell.imageView.image = #imageLiteral(resourceName: "HUG")
-        } else if indexPath.row == 2 {
-            cell.imageView.image = #imageLiteral(resourceName: "CHIRP")
-        } else {
-            cell.imageView.image = #imageLiteral(resourceName: "KUNC")
-        }
+        cell.imageView.image = portfolioItems[indexPath.row].logoImage
         
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        selectedPortfolioItem = portfolioItems[indexPath.row]
+        //performSegue(withIdentifier: "showPortfolioDetail", sender: self)
     }
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
@@ -60,12 +66,12 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return totalCollectionViewCells
+        return portfolioItems.count
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? PortfolioDetailViewController {
-            
+            destination.portfolioItem = selectedPortfolioItem
         }
     }
 }

@@ -7,23 +7,26 @@
 //
 
 import Foundation
+import UIKit
 
 class PortfolioItem {
     var appName: String
-    var datesWorkedOn: String
     var responsibilityDescription: String
-    var linkToAppStore: String?
+    var logoImage: UIImage
+    var linkToAppStore: URL?
     
-    init(appName: String, datesWorkedOn: String, responsibilityDescription: String, linkToAppStore: String) {
+    //For apps that are on the app store
+    init(appName: String, responsibilityDescription: String, logoImage: UIImage, linkToAppStore: URL) {
         self.appName = appName
-        self.datesWorkedOn = datesWorkedOn
         self.responsibilityDescription = responsibilityDescription
+        self.logoImage = logoImage
         self.linkToAppStore = linkToAppStore
     }
     
-    init(appName: String, datesWorkedOn: String, responsibilityDescription: String) {
+    //For apps that aren't on the app store
+    init(appName: String, responsibilityDescription: String, logoImage: UIImage) {
         self.appName = appName
-        self.datesWorkedOn = datesWorkedOn
         self.responsibilityDescription = responsibilityDescription
+        self.logoImage = logoImage
     }
 }
