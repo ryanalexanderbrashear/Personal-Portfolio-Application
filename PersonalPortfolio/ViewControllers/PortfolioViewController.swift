@@ -22,12 +22,12 @@ class PortfolioViewController: UIViewController, UICollectionViewDataSource, UIC
         
         let hugItem = PortfolioItem(appName: "HUG", responsibilityDescription: "Test", logoImage: #imageLiteral(resourceName: "HUG"), linkToAppStore: URL(string: "https://itunes.apple.com/us/app/hug-reading-program/id1228314146?mt=8")!, screenshots: [#imageLiteral(resourceName: "hugHome"), #imageLiteral(resourceName: "hugSlideMenu"), #imageLiteral(resourceName: "hugStudentProgress"), #imageLiteral(resourceName: "hugSchoolDirectory")])
         
-//        let chirpItem = PortfolioItem(appName: "CHIRP", responsibilityDescription: "Test", logoImage: #imageLiteral(resourceName: "CHIRP"), linkToAppStore: URL(string: "https://itunes.apple.com/us/app/hug-reading-program/id1228314146?mt=8")!)
+        let chirpItem = PortfolioItem(appName: "CHIRP", responsibilityDescription: "Test", logoImage: #imageLiteral(resourceName: "CHIRP"), linkToAppStore: URL(string: "https://itunes.apple.com/us/app/hug-reading-program/id1228314146?mt=8")!, screenshots: [#imageLiteral(resourceName: "homeScreen"), #imageLiteral(resourceName: "nowPlaying"), #imageLiteral(resourceName: "recentlyPlayed"), #imageLiteral(resourceName: "favorites")])
 //        
 //        let kuncItem = PortfolioItem(appName: "KUNC", responsibilityDescription: "Test", logoImage: #imageLiteral(resourceName: "KUNC"), linkToAppStore: URL(string: "https://itunes.apple.com/us/app/hug-reading-program/id1228314146?mt=8")!)
         
         portfolioItems.append(hugItem)
-//        portfolioItems.append(chirpItem)
+        portfolioItems.append(chirpItem)
 //        portfolioItems.append(kuncItem)
         
         pageControl.pageIndicatorTintColor = UIColor(hex: "6ABBEA")
