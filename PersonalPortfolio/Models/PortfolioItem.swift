@@ -9,5 +9,21 @@
 import Foundation
 
 class PortfolioItem {
+    var appName: String
+    var datesWorkedOn: String
+    var responsibilityDescription: String
+    var linkToAppStore: String?
     
+    init(appName: String, datesWorkedOn: String, responsibilityDescription: String, linkToAppStore: String) {
+        self.appName = appName
+        self.datesWorkedOn = datesWorkedOn
+        self.responsibilityDescription = responsibilityDescription
+        self.linkToAppStore = linkToAppStore
+    }
+    
+    init(appName: String, datesWorkedOn: String, responsibilityDescription: String) {
+        self.appName = appName
+        self.datesWorkedOn = datesWorkedOn
+        self.responsibilityDescription = responsibilityDescription
+    }
 }

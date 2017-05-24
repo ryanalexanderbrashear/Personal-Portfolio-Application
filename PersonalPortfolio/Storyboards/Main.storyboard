@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q21-iy-kwg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q21-iy-kwg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -40,7 +40,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="376" height="558"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giftit" translatesAutoresizingMaskIntoConstraints="NO" id="XuH-Gs-oHP">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HUG" translatesAutoresizingMaskIntoConstraints="NO" id="XuH-Gs-oHP">
                                                     <rect key="frame" x="0.0" y="0.0" width="376" height="558"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </imageView>
@@ -81,11 +81,30 @@
                     <connections>
                         <outlet property="collectionView" destination="4mV-Kb-aOQ" id="FRm-qc-RfL"/>
                         <outlet property="pageControl" destination="4ju-zb-9pe" id="lp7-F1-6WB"/>
+                        <segue destination="SpN-mJ-4g1" kind="show" identifier="showPortfolioDetail" id="IlQ-R4-Fi6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUV-pY-HJf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-18.399999999999999" y="-69.715142428785612"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YRr-ag-GC1">
+            <objects>
+                <viewController id="SpN-mJ-4g1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DSQ-zB-Mpo"/>
+                        <viewControllerLayoutGuide type="bottom" id="PR3-NU-mZG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XKr-Yt-xtb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWP-Gc-Rfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18" y="754"/>
         </scene>
         <!--Contact-->
         <scene sceneID="6Dy-Am-fpu">
@@ -338,7 +357,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="giftit" width="250" height="250"/>
+        <image name="HUG" width="250" height="110"/>
         <image name="layoutArrange" width="29" height="30"/>
         <image name="shareConnect" width="30" height="30"/>
         <image name="text" width="30" height="30"/>
