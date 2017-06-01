@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390FDE6E1EE05B8A00771AFA /* FullSizeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390FDE6D1EE05B8A00771AFA /* FullSizeImageViewController.swift */; };
 		390FF9301ED5CC5F00335287 /* PortfolioDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390FF92F1ED5CC5F00335287 /* PortfolioDetailViewController.swift */; };
 		3959E1831EABE7770078F133 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3959E1821EABE7770078F133 /* Intro.storyboard */; };
 		3959E1851EABE7A00078F133 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959E1841EABE7A00078F133 /* IntroViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		390FDE6D1EE05B8A00771AFA /* FullSizeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullSizeImageViewController.swift; path = ViewControllers/FullSizeImageViewController.swift; sourceTree = "<group>"; };
 		390FF92F1ED5CC5F00335287 /* PortfolioDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortfolioDetailViewController.swift; path = ViewControllers/PortfolioDetailViewController.swift; sourceTree = "<group>"; };
 		3959E1821EABE7770078F133 /* Intro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Intro.storyboard; path = Storyboards/Intro.storyboard; sourceTree = "<group>"; };
 		3959E1841EABE7A00078F133 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ViewControllers/IntroViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				3959E18C1EAD2B050078F133 /* PortfolioViewController.swift */,
 				390FF92F1ED5CC5F00335287 /* PortfolioDetailViewController.swift */,
 				39A2CF1D1EAFB9400085525C /* AboutViewController.swift */,
+				390FDE6D1EE05B8A00771AFA /* FullSizeImageViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				390FF9301ED5CC5F00335287 /* PortfolioDetailViewController.swift in Sources */,
 				3959E18D1EAD2B050078F133 /* PortfolioViewController.swift in Sources */,
 				3959E1871EAC4E980078F133 /* TabBarViewController.swift in Sources */,
+				390FDE6E1EE05B8A00771AFA /* FullSizeImageViewController.swift in Sources */,
 				39F320601EC60A8A0093E89B /* PortfolioItem.swift in Sources */,
 				39A2CF1E1EAFB9400085525C /* AboutViewController.swift in Sources */,
 				3959E1891EAD282E0078F133 /* Utilities.swift in Sources */,
