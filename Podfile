@@ -6,5 +6,8 @@ target 'PersonalPortfolio' do
   use_frameworks!
 
   # Pods for PersonalPortfolio
-
+	pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+	pod 'SwiftSpinner'
+	pod 'AnimatedCollectionViewLayout'
+	pod 'Font-Awesome-Swift', '~> 1.6.1'
 end
